@@ -72,6 +72,16 @@ The example values above are illustrative, not a saved recipe. The site currentl
 
 Paths to images are relative to the repository root (for example `assets/images/ipa.jpg`). GitHub Pages automatically handles the `/beer-recipies/` URL prefix.
 
+## Rich recipe details (optional)
+
+Recipes can include additional fields without needing further template edits:
+
+- `source_url` and `source_label`: link back to a source document (Google Docs or otherwise). If no `source_label` is provided, imported Brewer's Friend recipes keep their existing attribution.
+- `water_profile.source`, `water_profile.planned_total`, `water_profile.target_mash_ph`, and `water_profile.minerals[]` (`name`, `tap`, `after`, `goal`): display a water treatment section.
+- `brew_log[]` (`measurement`, `target`, `actual`): display observed results beside recipe targets, including in-progress fermentation readings.
+
+**Example:** [Stupid Sexy — 2026 Revival](_data/recipes/stupid-sexy.yml), brewed November 15, 2026, includes a complete grain bill, hop schedule, fermentation plan, water additions, and an explicitly time-stamped Tilt snapshot. It is a **2026 reconstruction**, not a recovered original 2020 recipe. Its source is the linked Google Doc.
+
 ## Local preview
 
 You need Ruby and Bundler installed.
