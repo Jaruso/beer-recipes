@@ -1,5 +1,6 @@
 # Imported from the public Brew Free or Die Brewer's Friend profile.
 # Values are recipe estimates unless explicitly identified as brew-day observations.
+featured: true
 name: "Barre Blonde"
 style: "Blonde Ale"
 summary: "A wheat-rich blonde with rice, Munich, Citra, and Barbe Rouge."

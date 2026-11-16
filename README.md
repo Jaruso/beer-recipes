@@ -4,7 +4,7 @@
 
 The recipe archive for **Brew Free or Die**, home of **The Caruso Brew Book**. A clean, static beer-recipe collection hosted on **GitHub Pages**. Recipes are individual YAML files, so adding a new brew never requires editing HTML, CSS, JavaScript, a manifest, or a recipe index.
 
-**How it works:** GitHub Pages runs its built-in Jekyll generator. Jekyll automatically reads every `.yml` / `.yaml` file in `_data/recipes/` and renders the recipe cards and details into static HTML. The tiny bit of browser JavaScript is just for search, style filters, and navigating between recipes.
+**How it works:** GitHub Pages runs its built-in Jekyll generator. Jekyll automatically reads every `.yml` / `.yaml` file in `_data/recipes/` and renders only recipes explicitly marked `featured: true` into static HTML. The tiny bit of browser JavaScript is just for search, style filters, and navigating between recipes.
 
 ## Publishing the site
 
@@ -15,16 +15,33 @@ The recipe archive for **Brew Free or Die**, home of **The Caruso Brew Book**. A
 
 > Do **not** add a `.nojekyll` file: GitHub Pages needs Jekyll to transform the recipe YAML files into HTML.
 
+## Choose which recipes appear on the website
+
+Each recipe has an explicit top-level YAML boolean:
+
+```yaml
+featured: true    # Display the recipe on the website
+# or
+featured: false   # Hide from the website
+```
+
+The website renders **only** recipes with `featured: true`. A missing flag is also considered hidden. The catalog cards, search/style filters, featured count and recipe detail pages are all filtered during the Jekyll build. Hidden recipes are not present in the generated HTML, even if someone tries a direct `#recipe-slug` URL.
+
+**Currently featured (12):** Banana Blueberry Berliner, Barre Blonde, Boys in Barre Ale, Can o' Corn I'll be Fine, Jocko's Enkel, Rye so Malty, Salty Melons Pseudo Lager, Mars and Beer, Super Bowl Lager, Travelers Trappist, Peaches and Cream, and Stupid Sexy. The remaining 14 are hidden from the website.
+
+**Visibility is not privacy:** Because this GitHub repository is public, anyone can still see the YAML source for all 26 recipes, including those with `featured: false`.
+
 ## Add a beer recipe (no code changes)
 
 1. Copy an existing file in `_data/recipes/` to a new file, such as `_data/recipes/my-neipa.yml`. Use lowercase letters, numbers, and hyphens in the **filename**; it becomes the recipe's permanent link (`#recipe-my-neipa`).
-2. Edit `name`, `style`, `batch`, `stats`, ingredients, process, and notes as desired. You can omit any optional section you don't need.
+2. Edit `name`, `style`, `batch`, `stats`, ingredients, process, and notes as desired. Set `featured: true` to publish a recipe on the website (missing or `false` keeps it hidden).
 3. Optionally add a photo to `assets/images/`, then set `image: "assets/images/my-neipa.jpg"` in your YAML. For more photos, add a `gallery` list of image paths.
 4. Commit the YAML and any photos to `main`. GitHub Pages automatically rebuilds the website. The card, style filter, search, and detail view appear without editing any source code.
 
 ### Minimal recipe example
 
 ```yaml
+featured: false # change to true to publish
 name: "My New England IPA"
 style: "New England IPA"
 summary: "A juicy, soft hazy IPA."

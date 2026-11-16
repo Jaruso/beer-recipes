@@ -1,5 +1,6 @@
 # Imported from the public Brew Free or Die Brewer's Friend profile.
 # Values are recipe estimates unless explicitly identified as brew-day observations.
+featured: true
 name: "Mars and Beer"
 style: "Märzen"
 summary: "A Munich-forward Märzen with Aromatic and Special B malt."

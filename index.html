@@ -1,6 +1,13 @@
 ---
 layout: null
 ---
+{% assign featured_count = 0 %}
+{% for entry in site.data.recipes %}
+  {% assign candidate = entry[1] %}
+  {% if candidate.featured == true %}
+    {% assign featured_count = featured_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,18 +29,20 @@ layout: null
     <main>
       <div id="catalog" class="catalog-view" data-catalog>
         <section class="hero" aria-labelledby="hero-title">
-          <div class="hero-copy"><p class="hero-overline"><span class="overline-rule"></span> THE CARUSO BREW BOOK</p><h1 id="hero-title">Brew free.<br><em>Or die.</em></h1><p class="hero-description">Welcome to the Caruso Brew Book: original beer recipes, experiments, and brew-day notes from Brew Free or Die. Every recipe open, every batch worth remembering.</p><a class="hero-cta" href="#recipes">Explore the recipes <span aria-hidden="true">↘</span></a></div>
+          <div class="hero-copy"><p class="hero-overline"><span class="overline-rule"></span> THE CARUSO BREW BOOK</p><h1 id="hero-title">Brew free.<br><em>Or die.</em></h1><p class="hero-description">Welcome to the Caruso Brew Book: original beer recipes, experiments, and brew-day notes from Brew Free or Die. A handpicked collection of the recipes worth sharing.</p><a class="hero-cta" href="#recipes">Explore the recipes <span aria-hidden="true">↘</span></a></div>
           <div class="hero-design" aria-hidden="true"><span class="stamp-top">BREW FREE • OR DIE</span><div class="hero-glass"><div class="glass-foam"></div><div class="glass-beer"></div><div class="glass-stem"></div></div><span class="stamp-bottom">EST. ON BREW DAY</span></div>
-          <div class="hero-foot"><span>THE CARUSO BREW BOOK</span><span>{{ site.data.recipes | size }} BATCHES DOCUMENTED</span></div>
+          <div class="hero-foot"><span>THE CARUSO BREW BOOK</span><span>{{ featured_count }} FEATURED RECIPES</span></div>
         </section>
         <section id="recipes" class="recipes-section" aria-labelledby="recipes-heading">
           <div class="section-intro"><div><p class="eyebrow">THE CARUSO BREW BOOK</p><h2 id="recipes-heading">On tap <em>& on record.</em></h2></div><p>Browse the brews. From grain bills to fermentation notes, the whole process is here.</p></div>
-          <div class="browse-toolbar"><label class="search-field"><span class="search-symbol" aria-hidden="true">⌕</span><span class="sr-only">Search recipes</span><input type="search" data-search-input placeholder="Search recipes, hops, styles…" autocomplete="off"></label><label class="style-field"><span class="sr-only">Filter by beer style</span><select data-style-filter aria-label="Filter by beer style"><option value="all">All beer styles</option></select></label><span class="result-count" data-result-count aria-live="polite">{{ site.data.recipes | size }} recipes</span></div>
+          <div class="browse-toolbar"><label class="search-field"><span class="search-symbol" aria-hidden="true">⌕</span><span class="sr-only">Search recipes</span><input type="search" data-search-input placeholder="Search recipes, hops, styles…" autocomplete="off"></label><label class="style-field"><span class="sr-only">Filter by beer style</span><select data-style-filter aria-label="Filter by beer style"><option value="all">All beer styles</option></select></label><span class="result-count" data-result-count aria-live="polite">{{ featured_count }} recipes</span></div>
           <div class="recipe-grid">
             {% for entry in site.data.recipes %}
               {% assign slug = entry[0] %}
               {% assign recipe = entry[1] %}
-              {% include recipe-card.html recipe=recipe slug=slug %}
+              {% if recipe.featured == true %}
+                {% include recipe-card.html recipe=recipe slug=slug %}
+              {% endif %}
             {% endfor %}
           </div>
           <div class="empty-state" data-empty-state hidden><strong>No recipes found.</strong><p>Try a different search or beer style.</p><button type="button" data-reset-filters>Clear filters</button></div>
@@ -43,7 +52,9 @@ layout: null
       {% for entry in site.data.recipes %}
         {% assign slug = entry[0] %}
         {% assign recipe = entry[1] %}
-        {% include recipe-detail.html recipe=recipe slug=slug %}
+        {% if recipe.featured == true %}
+          {% include recipe-detail.html recipe=recipe slug=slug %}
+        {% endif %}
       {% endfor %}
     </main>
     <footer class="site-footer"><span>✳ {{ site.title | escape }}</span><span>{{ site.tagline | escape }}</span><a href="{{ site.repository_url }}" target="_blank" rel="noopener noreferrer">OPEN SOURCE ↗</a></footer>
