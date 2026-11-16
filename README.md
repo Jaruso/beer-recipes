@@ -17,8 +17,8 @@ The recipe archive for **Brew Free or Die**, home of **The Caruso Brew Book**. A
 
 ## Add a beer recipe (no code changes)
 
-1. Copy one of the example files in `_data/recipes/` to a new file, such as `_data/recipes/my-neipa.yml`. Use lowercase letters, numbers, and hyphens in the **filename**; it becomes the recipe's permanent link (`#recipe-my-neipa`).
-2. Edit `name`, `style`, `batch`, `stats`, ingredients, process, and notes as desired. You can omit any optional section you don't need. Remove `demo: true` for a real batch.
+1. Copy an existing file in `_data/recipes/` to a new file, such as `_data/recipes/my-neipa.yml`. Use lowercase letters, numbers, and hyphens in the **filename**; it becomes the recipe's permanent link (`#recipe-my-neipa`).
+2. Edit `name`, `style`, `batch`, `stats`, ingredients, process, and notes as desired. You can omit any optional section you don't need.
 3. Optionally add a photo to `assets/images/`, then set `image: "assets/images/my-neipa.jpg"` in your YAML. For more photos, add a `gallery` list of image paths.
 4. Commit the YAML and any photos to `main`. GitHub Pages automatically rebuilds the website. The card, style filter, search, and detail view appear without editing any source code.
 
@@ -62,11 +62,11 @@ notes:
 #   - assets/images/my-neipa-pour.jpg
 ```
 
-The example values above are illustrative, not a saved recipe. The two starter YAML files are also **demo recipes**. Delete or replace them before sharing the site as your real brew log.
+The example values above are illustrative, not a saved recipe. The site currently contains the 25 public recipes imported from [Brew Free or Die's Brewer's Friend profile](https://www.brewersfriend.com/homebrew/brewer/344442/brew-free-or-die) on November 15, 2026.
 
 ### Optional recipe fields
 
-- `summary`, `date`, `tags`, `image`, `gallery`, and `demo`
+- `summary`, `date`, `tags`, `image`, `gallery`, `source_url`, and `source_id`
 - `other_ingredients`: same entries as hops (`amount`, `name`, optional `timing`)
 - `yeast[].notes`, `hops[].timing`, `stats`, `batch`, `process`, and `notes`
 
@@ -97,3 +97,13 @@ index.html                Jekyll-generated single-page recipe site
 ```
 
 No database. No custom CI workflow. No third-party JavaScript dependencies.
+
+## Brewer's Friend migration
+
+All **25 public** Brew Free or Die recipes on the profile were copied into individual source-controlled YAML files. The profile reports 26 total recipes; the one non-public recipe was not accessible. The migration includes recipe stats, fermentables, hops (including their schedules), yeast when recorded, other ingredients, and selected brewing instructions and notes. Each recipe links to its original public Brewer's Friend entry.
+
+- `date` means a documented **brew session** date, not the original recipe creation date. It is omitted when no brew session date was listed on the public profile. When multiple brew sessions exist, the most recent was used.
+- Numeric recipe OG/FG/ABV/IBU/SRM are the **published recipe estimates**. Actual measured gravity and process deviations are preserved in notes when available.
+- No recipe photographs or private brew-session logs were copied. Add your own local files under `assets/images/` and reference them from recipe YAML when desired.
+- This import is a **snapshot**, not an ongoing synchronization. Editing a Brewer's Friend recipe will not update the YAML automatically.
+- Where the rendered Brewer's Friend hop table showed dry-hop durations in **days** but its copied text export mislabeled them as minutes, the YAML follows the rendered table.

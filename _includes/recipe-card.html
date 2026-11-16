@@ -1,6 +1,6 @@
 {% assign recipe = include.recipe %}
 {% assign slug = include.slug %}
-<a class="recipe-card" href="#recipe-{{ slug | escape }}" data-recipe-card data-style="{{ recipe.style | default: 'Other' | escape }}" data-search="{{ recipe.name | escape }} {{ recipe.style | escape }} {{ recipe.summary | escape }} {{ recipe.tags | join: ' ' | escape }}">
+<a class="recipe-card" href="#recipe-{{ slug | escape }}" data-recipe-card data-style="{{ recipe.style | default: 'Other' | escape }}" data-search="{{ recipe.name | escape }} {{ recipe.style | escape }} {{ recipe.summary | escape }} {{ recipe.tags | join: ' ' | escape }} {{ recipe.fermentables | map: 'name' | join: ' ' | escape }} {{ recipe.hops | map: 'name' | join: ' ' | escape }} {{ recipe.yeast | map: 'name' | join: ' ' | escape }}">
   <div class="card-art">
     {% if recipe.image %}
       <img class="card-image" src="{{ recipe.image | relative_url }}" alt="{{ recipe.name | escape }}" loading="lazy">
