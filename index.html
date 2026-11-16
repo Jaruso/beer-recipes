@@ -13,29 +13,30 @@ layout: null
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#1f2923">
+  <meta name="theme-color" content="#19201c">
   <meta name="description" content="{{ site.description | escape }}">
   <title>{{ site.title | escape }} — Homebrew recipes</title>
   <link rel="canonical" href="{{ '/' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/taproom.css' | relative_url }}">
   <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
 </head>
 <body>
   <div class="page-shell">
     <header class="site-header">
-      <a class="brand" href="#catalog" aria-label="{{ site.title | escape }} home"><span class="brand-mark" aria-hidden="true">✳</span><span>{{ site.title | escape }}<small>THE CARUSO BREW BOOK</small></span></a>
+      <a class="brand" href="#catalog" aria-label="{{ site.title | escape }} home"><span class="brand-mark" aria-hidden="true">BF</span><span>{{ site.title | escape }}<small>THE CARUSO BREW BOOK</small></span></a>
       <nav aria-label="Main navigation"><a href="#catalog">The brew book</a><a class="github-link" href="{{ site.repository_url }}" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></nav>
     </header>
     <main>
       <div id="catalog" class="catalog-view" data-catalog>
         <section class="hero" aria-labelledby="hero-title">
-          <div class="hero-copy"><p class="hero-overline"><span class="overline-rule"></span> THE CARUSO BREW BOOK</p><h1 id="hero-title">Brew free.<br><em>Or die.</em></h1><p class="hero-description">Welcome to the Caruso Brew Book: original beer recipes, experiments, and brew-day notes from Brew Free or Die. A handpicked collection of the recipes worth sharing.</p><a class="hero-cta" href="#recipes">Explore the recipes <span aria-hidden="true">↘</span></a></div>
-          <div class="hero-design" aria-hidden="true"><span class="stamp-top">BREW FREE • OR DIE</span><div class="hero-glass"><div class="glass-foam"></div><div class="glass-beer"></div><div class="glass-stem"></div></div><span class="stamp-bottom">EST. ON BREW DAY</span></div>
+          <div class="hero-copy"><p class="hero-overline"><span class="overline-rule"></span> THE CARUSO BREW BOOK</p><h1 id="hero-title">BREW FREE.<br><span>OR DIE.</span></h1><p class="hero-description">Homebrewed in New Hampshire. Real recipes, real brew-day notes, and no filler.</p><a class="hero-cta" href="#recipes">VIEW RECIPES <span aria-hidden="true">↘</span></a></div>
+          
           <div class="hero-foot"><span>THE CARUSO BREW BOOK</span><span>{{ featured_count }} FEATURED RECIPES</span></div>
         </section>
         <section id="recipes" class="recipes-section" aria-labelledby="recipes-heading">
-          <div class="section-intro"><div><p class="eyebrow">THE CARUSO BREW BOOK</p><h2 id="recipes-heading">On tap <em>& on record.</em></h2></div><p>Browse the brews. From grain bills to fermentation notes, the whole process is here.</p></div>
-          <div class="browse-toolbar"><label class="search-field"><span class="search-symbol" aria-hidden="true">⌕</span><span class="sr-only">Search recipes</span><input type="search" data-search-input placeholder="Search recipes, hops, styles…" autocomplete="off"></label><label class="style-field"><span class="sr-only">Filter by beer style</span><select data-style-filter aria-label="Filter by beer style"><option value="all">All beer styles</option></select></label><span class="result-count" data-result-count aria-live="polite">{{ featured_count }} recipes</span></div>
+          <div class="section-intro"><div><p class="eyebrow">THE CARUSO BREW BOOK</p><h2 id="recipes-heading">THE RECIPES<span class="heading-period">.</span></h2></div><p>The good batches. Full grain bills, hop schedules, and notes from the brew day.</p></div>
+          <div class="browse-toolbar"><label class="search-field"><span class="search-symbol" aria-hidden="true">⌕</span><span class="sr-only">Search recipes</span><input type="search" data-search-input placeholder="Search recipes, ingredients, styles…" autocomplete="off"></label><label class="style-field"><span class="sr-only">Filter by beer style</span><select data-style-filter aria-label="Filter by beer style"><option value="all">All beer styles</option></select></label><span class="result-count" data-result-count aria-live="polite">{{ featured_count }} recipes</span></div>
           <div class="recipe-grid">
             {% for entry in site.data.recipes %}
               {% assign slug = entry[0] %}
@@ -46,7 +47,7 @@ layout: null
             {% endfor %}
           </div>
           <div class="empty-state" data-empty-state hidden><strong>No recipes found.</strong><p>Try a different search or beer style.</p><button type="button" data-reset-filters>Clear filters</button></div>
-          <div class="collection-end"><span>BREW FREE OR DIE.</span><span>CHEERS. ✳</span></div>
+          <div class="collection-end"><span>BREW FREE OR DIE.</span><span>BREWED IN NEW HAMPSHIRE.</span></div>
         </section>
       </div>
       {% for entry in site.data.recipes %}
@@ -57,7 +58,7 @@ layout: null
         {% endif %}
       {% endfor %}
     </main>
-    <footer class="site-footer"><span>✳ {{ site.title | escape }}</span><span>{{ site.tagline | escape }}</span><a href="{{ site.repository_url }}" target="_blank" rel="noopener noreferrer">OPEN SOURCE ↗</a></footer>
+    <footer class="site-footer"><span>BF / D — {{ site.title | escape }}</span><span>{{ site.tagline | escape }}</span><a href="{{ site.repository_url }}" target="_blank" rel="noopener noreferrer">OPEN SOURCE ↗</a></footer>
   </div>
 </body>
 </html>
