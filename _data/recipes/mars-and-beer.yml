@@ -1,0 +1,46 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Mars and Beer"
+style: "Märzen"
+summary: "A Munich-forward Märzen with Aromatic and Special B malt."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1368395/mars-and-beer"
+source_id: 1368395
+tags: ["All grain", "Brewer's Friend import"]
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.060"
+  fg: "1.016"
+  abv: "5.97%"
+  ibu: "28.95"
+  color: "14.18 SRM"
+fermentables:
+  - amount: "12 lb"
+    name: "Light Munich"
+  - amount: "6 oz"
+    name: "Aromatic Malt"
+  - amount: "6 oz"
+    name: "Special B"
+hops:
+  - amount: "0.25 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "0.25 oz"
+    name: "Comet"
+    timing: "Boil, 30 min"
+  - amount: "0.5 oz"
+    name: "Pacific Gem"
+    timing: "Boil, 13 min"
+  - amount: "0.5 oz"
+    name: "Monroe"
+    timing: "Boil, 10 min"
+yeast:
+  - amount: "1 package"
+    name: "Wyeast - Munich Lager 2308"
+process:
+  - name: "Mash"
+    instructions: "Mash at 152°F for 60 minutes; approximately 3.98 gal strike water."

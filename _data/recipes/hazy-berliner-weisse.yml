@@ -1,0 +1,58 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Hazy Berliner Weisse"
+style: "Berliner Weisse"
+summary: "A lightly hopped sour wheat beer with cranberries, strawberries, and fruit-forward dry hops."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1409508/hazy-berliner-weisse"
+source_id: 1409508
+tags: ["All grain", "Brewer's Friend import"]
+date: "2024-03-10"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "5.5 US gal"
+  brewhouse_efficiency: "65%"
+stats:
+  og: "1.038"
+  fg: "1.010"
+  abv: "3.69%"
+  ibu: "3.84"
+  color: "3.02 SRM"
+fermentables:
+  - amount: "4.05 lb"
+    name: "Wheat"
+  - amount: "4.5 lb"
+    name: "Pilsner"
+hops:
+  - amount: "1 oz"
+    name: "Motueka"
+    timing: "Dry hop, 5 days"
+  - amount: "0.5 oz"
+    name: "Citra"
+    timing: "Boil, 5 min"
+  - amount: "1 oz"
+    name: "Huell Melon"
+    timing: "Dry hop, 5 days"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Helio Gazer OYL-405"
+    notes: "Fermentation temperature: 80°F."
+other_ingredients:
+  - amount: "16 oz"
+    name: "Frozen Cranberries"
+    timing: "Primary, 7 days"
+  - amount: "32 oz"
+    name: "Frozen Strawberries"
+    timing: "Primary, 7 days"
+  - amount: "4 g"
+    name: "Calcium Chloride (dihydrate)"
+    timing: "Sparge"
+process:
+  - name: "Mash"
+    instructions: "Mash at 152°F for 60 minutes with 4 gal water."
+  - name: "Sparge"
+    instructions: "Sparge with 2 gal water."
+notes:
+  - "pH measured 4.8 when culture was added and 3.4 at boil."
+  - "This recipe has multiple recorded brew sessions (2022-10-08 and 2024-03-10); the date shown is the latest."

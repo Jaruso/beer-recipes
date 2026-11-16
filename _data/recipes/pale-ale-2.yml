@@ -1,0 +1,55 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Pale ale #2"
+style: "No Profile Selected"
+summary: "A hop-forward pale ale recipe with Pilsner, Crystal 10L, Azacca, and Huell Melon."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1377018/pale-ale-2"
+source_id: 1377018
+tags: ["All grain", "Brewer's Friend import"]
+date: "2024-03-03"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.051"
+  fg: "1.010"
+  abv: "5.37%"
+  ibu: "48.8"
+  color: "6.11 SRM"
+fermentables:
+  - amount: "10 lb"
+    name: "Pilsner"
+  - amount: "12.7 oz"
+    name: "Caramel / Crystal 10L"
+hops:
+  - amount: "0.3 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Azacca"
+    timing: "Boil, 15 min"
+  - amount: "0.25 oz"
+    name: "Monroe"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Azacca"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Huell Melon"
+    timing: "Boil, 5 min"
+  - amount: "1 oz"
+    name: "Azacca"
+    timing: "Boil, 5 min"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Dried Lutra Kveik OYL-071DRY"
+process:
+  - name: "Mash"
+    instructions: "Mash at 151°F for 60 minutes with 5 gal water."
+  - name: "Fly sparge"
+    instructions: "Fly sparge with 1.5 gal water at 151°F."
+notes:
+  - "Original Brewer's Friend style was 'No Profile Selected'; style has been preserved rather than guessed."

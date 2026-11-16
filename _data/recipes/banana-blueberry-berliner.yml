@@ -1,0 +1,53 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Banana Blueberry Berliner"
+style: "Berliner Weisse"
+summary: "A tart Berliner Weisse fermented with Bananza yeast and finished with blueberry purée."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1267748/banana-blueberry-berliner"
+source_id: 1267748
+tags: ["All grain", "Brewer's Friend import"]
+date: "2023-08-27"
+batch:
+  method: "All grain"
+  size: "4.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "5 US gal"
+  brewhouse_efficiency: "50%"
+stats:
+  og: "1.038"
+  fg: "1.009"
+  abv: "3.84%"
+  ibu: "17.79"
+  color: "4.18 SRM"
+fermentables:
+  - amount: "4 lb"
+    name: "White Wheat"
+  - amount: "4 lb"
+    name: "Pale 2-Row"
+  - amount: "1 lb"
+    name: "Pale 2-Row (late mash addition)"
+hops:
+  - amount: "0.25 oz"
+    name: "Wai-iti"
+    timing: "Boil, 30 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "Boil, 15 min"
+  - amount: "0.5 oz"
+    name: "Barbe Rouge"
+    timing: "Boil, 15 min"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Bananza OYL-400"
+other_ingredients:
+  - amount: "3 qt"
+    name: "Blueberry puree"
+    timing: "Kegging"
+process:
+  - name: "Mash"
+    instructions: "Mash at 152°F for 60 minutes with 4.5 gal water."
+  - name: "Sparge"
+    instructions: "Sparge with 0.5 gal water."
+notes:
+  - "Increase grain crush fineness to improve efficiency."
+  - "Add a mixture of lactic, malic, citric, and tartaric acids to reach pH 3.5 before the boil."

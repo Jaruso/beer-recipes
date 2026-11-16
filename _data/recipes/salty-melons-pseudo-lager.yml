@@ -1,0 +1,43 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Salty Melons Pseudo Lager"
+style: "American Light Lager"
+summary: "A pseudo-lager with Huell Melon, acid blend, mineral additions, and Lutra kveik."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1472267/salty-melons-pseudo-lager"
+source_id: 1472267
+tags: ["All grain", "Brewer's Friend import"]
+date: "2024-02-18"
+batch:
+  method: "All grain"
+  size: "5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "5.5 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.052"
+  fg: "1.011"
+  abv: "5.37%"
+  ibu: "28.09"
+  color: "3.59 SRM"
+fermentables:
+  - amount: "10 lb"
+    name: "Pilsner"
+hops:
+  - amount: "1 oz"
+    name: "Huell Melon"
+    timing: "Boil, 60 min"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Dried Lutra Kveik OYL-071DRY"
+other_ingredients:
+  - amount: "0.5 oz"
+    name: "Acid blend"
+    timing: "Whirlpool"
+  - amount: "0.175 oz"
+    name: "Calcium Chloride (dihydrate)"
+    timing: "Mash"
+  - amount: "0.35 oz"
+    name: "Diamond crystal salt"
+    timing: "Whirlpool"
+notes:
+  - "Measured original gravity: 1.048."

@@ -1,0 +1,43 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Pale ale #1"
+style: "American Pale Ale"
+summary: "A Pilsner-based pale ale with oats, CaraAroma, Citra, Huell Melon, Wai-iti, and Jarrylo."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1334792/pale-ale-1"
+source_id: 1334792
+tags: ["All grain", "Brewer's Friend import"]
+date: "2023-09-09"
+batch:
+  method: "All grain"
+  size: "6 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6.5 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.046"
+  fg: "1.011"
+  abv: "4.49%"
+  ibu: "28.54"
+  color: "5.04 SRM"
+fermentables:
+  - amount: "10 lb"
+    name: "Pilsner"
+  - amount: "0.5 lb"
+    name: "Rolled Oats"
+  - amount: "2 oz"
+    name: "CaraAroma"
+hops:
+  - amount: "0.5 oz"
+    name: "Citra"
+    timing: "Boil, 15 min"
+  - amount: "0.5 oz"
+    name: "Huell Melon"
+    timing: "Boil, 15 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "Boil, 15 min"
+  - amount: "0.25 oz"
+    name: "Jarrylo"
+    timing: "Boil, 30 min"
+notes:
+  - "The original public recipe did not specify a yeast strain."

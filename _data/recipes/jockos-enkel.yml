@@ -1,0 +1,49 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Jocko’s Enkel"
+style: "Belgian Pale Ale"
+summary: "A crisp Belgian pale ale with Pilsner, biscuit, rice, Special B, and Krush hops."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1536082/jockos-enkel"
+source_id: 1536082
+tags: ["All grain", "Brewer's Friend import"]
+date: "2025-01-12"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.038"
+  fg: "1.005"
+  abv: "4.25%"
+  ibu: "28.89"
+  color: "8.68 SRM"
+fermentables:
+  - amount: "6.5 lb"
+    name: "Pilsner"
+  - amount: "0.4 lb"
+    name: "Biscuit"
+  - amount: "0.8 lb"
+    name: "Rice"
+  - amount: "0.4 lb"
+    name: "Special B"
+hops:
+  - amount: "0.4 oz"
+    name: "Sorachi Ace"
+    timing: "Boil, 60 min"
+  - amount: "0.4 oz"
+    name: "HBC 586 Krush"
+    timing: "Boil, 15 min"
+  - amount: "0.4 oz"
+    name: "HBC 586 Krush"
+    timing: "Boil, 5 min"
+yeast:
+  - amount: "1 package"
+    name: "Mangrove Jack - Belgian Ale Yeast M41"
+    notes: "Fermentation temperature: 65°F."
+process:
+  - name: "Mash"
+    instructions: "Mash at 142°F for 60 minutes with 4 gal strike water."
+  - name: "Fly sparge"
+    instructions: "Fly sparge with 2 gal at 145°F for 15 min."

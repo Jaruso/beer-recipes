@@ -1,0 +1,50 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Peach cobbler"
+style: "American Amber Ale"
+summary: "An amber ale with Biscuit, Aromatic, Special B, Pilsner, and Lutra kveik."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1384919/peach-cobbler"
+source_id: 1384919
+tags: ["All grain", "Brewer's Friend import"]
+date: "2021-04-10"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.052"
+  fg: "1.011"
+  abv: "5.39%"
+  ibu: "19.34"
+  color: "7.21 SRM"
+fermentables:
+  - amount: "1 lb"
+    name: "Biscuit"
+  - amount: "2 oz"
+    name: "Aromatic Malt"
+  - amount: "1.5 oz"
+    name: "Special B"
+  - amount: "9 lb"
+    name: "Pilsner"
+  - amount: "1 lb"
+    name: "Rolled Oats"
+hops:
+  - amount: "0.2 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "Boil, 15 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Citra"
+    timing: "Boil, 10 min"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Dried Lutra Kveik OYL-071DRY"
+notes:
+  - "Despite the recipe name, no peach ingredient was listed on the public recipe page."

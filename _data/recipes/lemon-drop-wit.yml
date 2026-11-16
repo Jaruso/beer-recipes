@@ -1,0 +1,50 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Lemon Drop Wit"
+style: "Witbier"
+summary: "A wheat-heavy witbier with Lemondrop hops and lemon zest."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1431905/lemon-drop-wit"
+source_id: 1431905
+tags: ["All grain", "Brewer's Friend import"]
+date: "2024-09-14"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.048"
+  fg: "1.010"
+  abv: "4.97%"
+  ibu: "19.39"
+  color: "3.37 SRM"
+fermentables:
+  - amount: "5 lb"
+    name: "Wheat"
+  - amount: "4 lb"
+    name: "Pale 2-Row"
+  - amount: "1 lb"
+    name: "Pilsner"
+hops:
+  - amount: "0.5 oz"
+    name: "Lemondrop"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Lemondrop"
+    timing: "Boil, 30 min"
+yeast:
+  - amount: "1 package"
+    name: "Fermentis / Safale - WB06"
+    notes: "Fermentation temperature: 65°F."
+other_ingredients:
+  - amount: "1 oz"
+    name: "Lemon Zest"
+    timing: "Primary, 10 days"
+process:
+  - name: "Mash"
+    instructions: "Mash at 152°F for 60 minutes with 3.75 gal water."
+  - name: "Fly sparge"
+    instructions: "Fly sparge with 2 gal water."
+notes:
+  - "Used Nashua tap water, boiled to remove chlorine."

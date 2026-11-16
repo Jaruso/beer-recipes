@@ -1,0 +1,52 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Fruity Stones"
+style: "American Pale Ale"
+summary: "A wheat-and-oat pale ale featuring Citra, Mosaic, and Wai-iti."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1324709/fruity-stones"
+source_id: 1324709
+tags: ["All grain", "Brewer's Friend import"]
+batch:
+  method: "All grain"
+  size: "4.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "5 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.057"
+  fg: "1.013"
+  abv: "5.88%"
+  ibu: "34.87"
+  color: "4.33 SRM"
+fermentables:
+  - amount: "5.5 lb"
+    name: "Pale 2-Row"
+  - amount: "2.5 lb"
+    name: "White Wheat"
+  - amount: "2 lb"
+    name: "Rolled Oats"
+hops:
+  - amount: "0.5 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Mosaic"
+    timing: "Boil, 5 min"
+  - amount: "0.5 oz"
+    name: "Citra"
+    timing: "Boil, 5 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "High-krausen dry hop, 3 days"
+  - amount: "0.5 oz"
+    name: "Citra"
+    timing: "High-krausen dry hop, 3 days"
+  - amount: "0.5 oz"
+    name: "Mosaic"
+    timing: "High-krausen dry hop, 3 days"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Lutra Kveik OYL-071"
