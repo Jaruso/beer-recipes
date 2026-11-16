@@ -45,3 +45,6 @@ yeast:
 process:
   - name: "Mash"
     instructions: "Mash at 152°F for 60 minutes; approximately 3.98 gal strike water."
+instagram_posts:
+  - url: "https://www.instagram.com/jaruso23/p/C0hBCg3uC_Y/"
+    notes: "Brewer described this Märzen as containing Belgian malts and showing pleasant dark-fruit complexity. The caption also explains the traditional Märzen spring-brew/summer-lager/fall-tap cycle, but does not establish this batch's exact brewing or packaging dates."

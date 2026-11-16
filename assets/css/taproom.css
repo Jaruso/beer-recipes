@@ -72,3 +72,11 @@ body{background:var(--linen);color:var(--ink)}
 .section-heading h2{font-size:26px}
 }
 @media print{body{background:#fff}.stat-panel{background:#fff;color:#000}.stat-panel strong{color:#000}}
+
+/* Optional brewer-authored Instagram observations, not canonical recipe figures. */
+.instagram-notes{margin-top:24px;padding:24px;background:#e2e6de;border-left:3px solid #b27432}
+.instagram-notes p{font-size:13px;line-height:1.65;margin:12px 0;color:#3f4d42}
+.instagram-notes .eyebrow{color:#8b531f}
+.instagram-notes .source-difference{border-top:1px solid #bcc8bb;padding-top:12px;color:#634d32}
+.instagram-source-link{font-size:12px;font-weight:900;color:#80511e;text-decoration:underline;text-underline-offset:3px}
+.instagram-source-link:hover{color:#473016}

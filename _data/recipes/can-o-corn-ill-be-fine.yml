@@ -41,3 +41,6 @@ hops:
 yeast:
   - amount: "1 package"
     name: "Omega Yeast Labs - Dried Lutra Kveik OYL-071DRY"
+instagram_posts:
+  - url: "https://www.instagram.com/jaruso23/p/Ci5Z_YIuvZl/"
+    notes: "Brewer's caption identifies this as a cream ale with approximately 20% corn in the grain bill and Jarrylo and Wai-iti hops. This is broadly consistent with the published formula (2 lb flaked corn in 11 lb of fermentables, about 18%)."

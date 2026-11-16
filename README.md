@@ -99,6 +99,19 @@ Recipes can include additional fields without needing further template edits:
 
 **Example:** [Stupid Sexy — 2026 Revival](_data/recipes/stupid-sexy.yml), brewed November 15, 2026, includes a complete grain bill, hop schedule, fermentation plan, water additions, and an explicitly time-stamped Tilt snapshot. It is a **2026 reconstruction**, not a recovered original 2020 recipe. Its source is the linked Google Doc.
 
+## Instagram brew notes (optional)
+
+When a beer is described in an Instagram post, keep the original recipe estimates and add the post as **brewer observation**, not an unverified replacement for the grain bill or hop schedule:
+
+```yaml
+instagram_posts:
+  - url: "https://www.instagram.com/jaruso23/p/EXAMPLE/"
+    notes: "A tasting observation or documented brew-day detail."
+    source_difference: "Optional: explain how this differs from the planned Brewer's Friend recipe."
+```
+
+The optional Instagram notes appear on a recipe detail page with a direct link to each source post. Source discrepancies remain visible rather than being silently reconciled. The initial pass added eight identified beer-related feed posts to the matching YAML files; other posts have not been exhaustively reviewed. The 12 featured recipe flags were not changed.
+
 ## Local preview
 
 You need Ruby and Bundler installed.

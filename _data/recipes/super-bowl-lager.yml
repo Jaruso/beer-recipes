@@ -42,3 +42,7 @@ process:
     instructions: "Mash at 155°F for 60 minutes with 4 gal water."
   - name: "Sparge"
     instructions: "Batch sparge with 2 gal at 150°F."
+instagram_posts:
+  - url: "https://www.instagram.com/jaruso23/p/DIH878-SpZH/"
+    notes: "Brewer's tasting report: lager made for the Super Bowl aged nicely, with a fuller body than a typical light, crisp lager. Biscuit malt gave a bready flavor. Described as low-ABV, very crushable, rated 9/10, and worth brewing again."
+    source_difference: "The post describes low ABV and full body; the Brewer's Friend numeric stats remain recipe estimates, not verified finished measurements."
