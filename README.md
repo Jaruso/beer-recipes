@@ -27,7 +27,7 @@ featured: false   # Hide from the website
 
 The website renders **only** recipes with `featured: true`. A missing flag is also considered hidden. The catalog cards, search/style filters, featured count and recipe detail pages are all filtered during the Jekyll build. Hidden recipes are not present in the generated HTML, even if someone tries a direct `#recipe-slug` URL.
 
-**Currently featured (12):** Banana Blueberry Berliner, Barre Blonde, Boys in Barre Ale, Can o' Corn I'll be Fine, Jocko's Enkel, Rye so Malty, Salty Melons Pseudo Lager, Mars and Beer, Super Bowl Lager, Travelers Trappist, Peaches and Cream, and Stupid Sexy. The remaining 35 are hidden from the website (21 archived Instagram imports plus the previously hidden records).
+**Currently featured (18):** Banana Blueberry Berliner, Barre Blonde, Boys in Barre Ale, Can o' Corn I'll be Fine, Jocko's Enkel, Rye so Malty, Salty Melons Pseudo Lager, Mars and Beer, Super Bowl Lager, Travelers Trappist, Peaches and Cream, Stupid Sexy, Scurvy Time NE IPA, Jocko's Winter Saison, Salty Melon Göse, Mandarin Amber Ale, Orange Creamsicle Ale, and Berry Berliner Weisse. The remaining 29 recipes are hidden from the website.
 
 **Visibility is not privacy:** Because this GitHub repository is public, anyone can still see the YAML source for all 47 recipes, including those with `featured: false`.
 
@@ -154,4 +154,4 @@ The repository includes 21 additional historical brew records recovered from cap
 
 Some archived recipes are **partial**: captions give ingredient names or proportions but not exact weights, timings, yeast or original gravity. Missing values are marked "Amount not recorded" or omitted; they are not calculated or replaced with values from other batches. Reported finishing measurements are labeled as brewer observations. Future recipe ideas are presented as notes, not ingredients of the original batches.
 
-The highlighted homepage remains a curated selection of **12** recipes, while all **47** YAML files are retained in source control. Historical posts without enough evidence to describe a finished brew (for example a wild-yeast collection experiment or an unidentifiable unnamed beer) are not merged into unrelated recipes.
+The highlighted homepage remains a curated selection of **18** recipes, while all **47** YAML files are retained in source control. Historical posts without enough evidence to describe a finished brew (for example a wild-yeast collection experiment or an unidentifiable unnamed beer) are not merged into unrelated recipes.
