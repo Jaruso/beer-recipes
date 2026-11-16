@@ -1,0 +1,42 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Can o' Corn I'll be fine"
+style: "Cream Ale"
+summary: "An easy-drinking cream ale built on pale two-row and flaked corn."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1309645/can-o-corn-i-ll-be-fine"
+source_id: 1309645
+tags: ["All grain", "Brewer's Friend import"]
+date: "2022-09-10"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.053"
+  fg: "1.011"
+  abv: "5.45%"
+  ibu: "10.84"
+  color: "3.26 SRM"
+fermentables:
+  - amount: "9 lb"
+    name: "Pale 2-Row"
+  - amount: "2 lb"
+    name: "Flaked Corn"
+hops:
+  - amount: "0.1 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "0.25 oz"
+    name: "Jarrylo"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Wai-iti"
+    timing: "Boil, 5 min"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Dried Lutra Kveik OYL-071DRY"

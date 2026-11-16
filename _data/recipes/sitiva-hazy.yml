@@ -1,0 +1,40 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Sitiva Hazy"
+style: "American Pale Ale"
+summary: "A soft, wheat-forward hazy pale ale dry-hopped with Sitiva."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1449185/sitiva-hazy"
+source_id: 1449185
+tags: ["All grain", "Brewer's Friend import"]
+batch:
+  method: "All grain"
+  size: "5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "5.5 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.050"
+  fg: "1.013"
+  abv: "4.94%"
+  ibu: "14.32"
+  color: "4.4 SRM"
+fermentables:
+  - amount: "6 lb"
+    name: "Pilsner"
+  - amount: "3 lb"
+    name: "White Wheat"
+  - amount: "8 oz"
+    name: "Munich - Light 10L"
+hops:
+  - amount: "0.6 oz"
+    name: "Wai-iti"
+    timing: "Boil, 15 min"
+  - amount: "0.5 oz"
+    name: "Citra"
+    timing: "Boil, 15 min"
+  - amount: "3 oz"
+    name: "Sitiva"
+    timing: "High-krausen dry hop, 7 days"
+yeast:
+  - amount: "1 package"
+    name: "Cellar Labs - Hazy"

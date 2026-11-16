@@ -1,0 +1,51 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Boys in Barre Ale"
+style: "Fruit Beer"
+summary: "A Pilsner-and-oats fruit ale with boysenberries and blackberries."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1343403/boys-in-barre-ale"
+source_id: 1343403
+tags: ["All grain", "Brewer's Friend import"]
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.046"
+  fg: "1.012"
+  abv: "4.54%"
+  ibu: "32.07"
+  color: "3.47 SRM"
+fermentables:
+  - amount: "8 lb"
+    name: "Pilsner"
+  - amount: "2 lb"
+    name: "Rolled Oats"
+hops:
+  - amount: "0.1 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "0.25 oz"
+    name: "Barbe Rouge"
+    timing: "Boil, 30 min"
+  - amount: "0.25 oz"
+    name: "Pacific Gem"
+    timing: "Boil, 30 min"
+  - amount: "0.25 oz"
+    name: "Barbe Rouge"
+    timing: "Boil, 15 min"
+  - amount: "0.25 oz"
+    name: "Pacific Gem"
+    timing: "Boil, 15 min"
+other_ingredients:
+  - amount: "4 each"
+    name: "Canned boysenberries"
+    timing: "Primary, 7 days"
+  - amount: "20 oz"
+    name: "Frozen blackberries"
+    timing: "Primary, 7 days"
+notes:
+  - "Brew note: measured original gravity 1.052 and fermentation at 69°F."
+  - "No yeast strain was listed in the original public recipe."

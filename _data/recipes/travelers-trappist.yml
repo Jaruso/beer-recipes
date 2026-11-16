@@ -1,0 +1,60 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Travelers Trappist"
+style: "Belgian Dubbel"
+summary: "A Belgian dubbel with Munich, wheat, Special B, and Abbey yeast."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1186526/travelers-trappist"
+source_id: 1186526
+tags: ["All grain", "Brewer's Friend import"]
+date: "2022-02-26"
+batch:
+  method: "All grain"
+  size: "5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "5.5 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.068"
+  fg: "1.014"
+  abv: "7.04%"
+  ibu: "43.18"
+  color: "17.56 SRM"
+fermentables:
+  - amount: "6 lb"
+    name: "Light Munich"
+  - amount: "3 lb"
+    name: "White Wheat"
+  - amount: "3 lb"
+    name: "Pale Ale Malt 2-Row"
+  - amount: "1 lb"
+    name: "Special B"
+hops:
+  - amount: "0.25 oz"
+    name: "African Queen"
+    timing: "Boil, 60 min"
+  - amount: "0.25 oz"
+    name: "Pacific Gem"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Pacific Gem"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Monroe"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "African Queen"
+    timing: "Boil, 10 min"
+  - amount: "0.5 oz"
+    name: "Barbe Rouge"
+    timing: "Boil, 10 min"
+yeast:
+  - amount: "1 package"
+    name: "White Labs - Abbey Ale Yeast WLP530"
+    notes: "Pitch at 73°F; allow to rise to no higher than 82°F."
+process:
+  - name: "Mash"
+    instructions: "Target 152°F for 60 minutes."
+notes:
+  - "Return to 73°F after five days, then reduce to 50°F after seven days."
+  - "Vigorous yeast activity: use a blow-off tube."
+  - "Reported actual FG 1.008."

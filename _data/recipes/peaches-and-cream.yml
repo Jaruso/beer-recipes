@@ -1,0 +1,68 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Peaches and Cream"
+style: "Blonde Ale"
+summary: "A blonde ale with peaches, Wai-iti hops, and Lutra kveik."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1308085/peaches-and-cream"
+source_id: 1308085
+tags: ["All grain", "Brewer's Friend import"]
+date: "2022-08-28"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "62%"
+stats:
+  og: "1.042"
+  fg: "1.009"
+  abv: "4.33%"
+  ibu: "9.64"
+  color: "3.92 SRM"
+fermentables:
+  - amount: "10 oz"
+    name: "Light Munich"
+  - amount: "8.5 lb"
+    name: "Pale 2-Row"
+  - amount: "1 lb"
+    name: "Rolled Oats"
+hops:
+  - amount: "0.1 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "1 oz"
+    name: "Wai-iti"
+    timing: "Boil, 5 min"
+  - amount: "0.25 oz"
+    name: "Jarrylo"
+    timing: "Boil, 5 min"
+  - amount: "1 oz"
+    name: "Wai-iti"
+    timing: "High-krausen dry hop, 5 days"
+  - amount: "0.25 oz"
+    name: "African Queen"
+    timing: "High-krausen dry hop, 5 days"
+  - amount: "0.25 oz"
+    name: "Citra"
+    timing: "High-krausen dry hop, 5 days"
+  - amount: "0.5 oz"
+    name: "Jarrylo"
+    timing: "High-krausen dry hop, 5 days"
+yeast:
+  - amount: "1 package"
+    name: "Omega Yeast Labs - Lutra Kveik OYL-071"
+    notes: "Pitch at 85°F; target fermentation temperature 80°F."
+other_ingredients:
+  - amount: "5 lb"
+    name: "Chopped frozen peaches"
+    timing: "Primary, 5 days"
+process:
+  - name: "Mash"
+    instructions: "Target 145°F for 60 minutes; 5.06 gal strike water."
+  - name: "Sparge"
+    instructions: "Sparge with 2 gal water."
+notes:
+  - "Mash pH was 4.8, likely reducing efficiency."
+  - "ABV may be higher than calculated because of peach sugars."
+  - "Added a small quantity of calcium chloride; pitched yeast at 85°F due to summer heat."
+  - "Reported final gravity: 1.004."

@@ -1,0 +1,51 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Rye so Malty"
+style: "Saison"
+summary: "A Belgian saison built on rye malt, pale ale malt, and Huell Melon hops."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1192922/rye-so-malty"
+source_id: 1192922
+tags: ["All grain", "Brewer's Friend import"]
+date: "2022-04-10"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "5 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.049"
+  fg: "1.015"
+  abv: "4.46%"
+  ibu: "32.29"
+  color: "5.79 SRM"
+fermentables:
+  - amount: "2 lb"
+    name: "Rye Malt"
+  - amount: "7 lb"
+    name: "Pale Ale"
+  - amount: "4 oz"
+    name: "Aromatic Malt"
+  - amount: "1 lb"
+    name: "White Wheat"
+hops:
+  - amount: "0.3 oz"
+    name: "Comet"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Huell Melon"
+    timing: "Boil, 30 min"
+  - amount: "0.5 oz"
+    name: "Huell Melon"
+    timing: "Boil, 14 min"
+  - amount: "1 oz"
+    name: "Huell Melon"
+    timing: "Boil, 8 min"
+yeast:
+  - amount: "1 package"
+    name: "White Labs - Belgian Saison I Yeast WLP565"
+    notes: "Pitch at 73°F and allow free rise."
+notes:
+  - "One recorded OG was 1.054; maximum fermentation temperature reached 81°F after two days."
+  - "For a later batch: added an extra 1 oz Wai-iti at 10 minutes and pitched at 58°F."
+  - "Equipment failed during mash, effectively producing a decoction-like mash at 140°F."

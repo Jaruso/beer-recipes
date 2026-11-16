@@ -1,0 +1,43 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Super Bowl Lager"
+style: "American Light Lager"
+summary: "A light lager with Pilsner, rice, biscuit malt, and Elani hops."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1533189/super-bowl-lager"
+source_id: 1533189
+tags: ["All grain", "Brewer's Friend import"]
+date: "2024-12-14"
+batch:
+  method: "All grain"
+  size: "5.5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.056"
+  fg: "1.012"
+  abv: "5.75%"
+  ibu: "17.09"
+  color: "3.97 SRM"
+fermentables:
+  - amount: "7 lb"
+    name: "Pilsner"
+  - amount: "4.8 lb"
+    name: "Rice"
+  - amount: "4 oz"
+    name: "Biscuit"
+hops:
+  - amount: "0.4 oz"
+    name: "Elani"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Elani"
+    timing: "Whirlpool, 10 min (temperature not specified)"
+yeast:
+  - amount: "1 package"
+    name: "Danstar - LalBrew Diamond Lager"
+process:
+  - name: "Mash"
+    instructions: "Mash at 155°F for 60 minutes with 4 gal water."
+  - name: "Sparge"
+    instructions: "Batch sparge with 2 gal at 150°F."

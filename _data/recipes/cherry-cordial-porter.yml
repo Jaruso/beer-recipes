@@ -1,0 +1,63 @@
+# Imported from the public Brew Free or Die Brewer's Friend profile.
+# Values are recipe estimates unless explicitly identified as brew-day observations.
+name: "Cherry Cordial Porter"
+style: "American Porter"
+summary: "A dark porter with cherries, cacao nibs, and lactose."
+source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1191112/cherry-cordial-porter"
+source_id: 1191112
+tags: ["All grain", "Brewer's Friend import"]
+batch:
+  method: "All grain"
+  size: "5 US gal"
+  boil: "60 minutes"
+  pre_boil_size: "6 US gal"
+  brewhouse_efficiency: "70%"
+stats:
+  og: "1.066"
+  fg: "1.018"
+  abv: "6.34%"
+  ibu: "30.26"
+  color: "30.78 SRM"
+fermentables:
+  - amount: "4 lb"
+    name: "Light Munich"
+  - amount: "1 lb"
+    name: "Rolled Oats"
+  - amount: "8.8 oz"
+    name: "Special B"
+  - amount: "8 oz"
+    name: "Carafa III"
+  - amount: "5 lb"
+    name: "Pale Ale"
+  - amount: "1 lb"
+    name: "Caramel / Crystal 10L"
+  - amount: "1 lb"
+    name: "Aromatic Malt"
+hops:
+  - amount: "1 oz"
+    name: "Crystal"
+    timing: "Boil, 60 min"
+  - amount: "0.5 oz"
+    name: "Monroe"
+    timing: "Boil, 15 min"
+  - amount: "0.5 oz"
+    name: "Pacific Gem"
+    timing: "Boil, 15 min"
+yeast:
+  - amount: "1 package"
+    name: "Imperial Yeast - A10 Darkness"
+other_ingredients:
+  - amount: "4 each"
+    name: "Can of Cherries"
+    timing: "Secondary, 60 days"
+  - amount: "0.1 lb"
+    name: "Cacao Nibs"
+    timing: "Secondary, 60 days"
+  - amount: "0.5 lb"
+    name: "Lactose"
+    timing: "Boil, 5 min"
+process:
+  - name: "Mash"
+    instructions: "Strike at 159°F; target 149°F for 60 min, using 4.89 gal."
+  - name: "Sparge"
+    instructions: "Sparge with 1.5 gal at 158°F."
