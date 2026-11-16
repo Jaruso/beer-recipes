@@ -1,0 +1,18 @@
+{% assign recipe = include.recipe %}
+{% assign slug = include.slug %}
+<a class="recipe-card" href="#recipe-{{ slug | escape }}" data-recipe-card data-style="{{ recipe.style | default: 'Other' | escape }}" data-search="{{ recipe.name | escape }} {{ recipe.style | escape }} {{ recipe.summary | escape }} {{ recipe.tags | join: ' ' | escape }}">
+  <div class="card-art">
+    {% if recipe.image %}
+      <img class="card-image" src="{{ recipe.image | relative_url }}" alt="{{ recipe.name | escape }}" loading="lazy">
+    {% else %}
+      <div class="card-placeholder" aria-hidden="true"><span class="glass">◕</span><span class="placeholder-caption">SMALL BATCH<br>BIG FLAVOR</span></div>
+    {% endif %}
+    <span class="art-label">{{ recipe.style | default: 'Homebrew' | escape }}</span>
+  </div>
+  <div class="card-body">
+    <div class="card-topline"><span>{{ recipe.batch.method | default: 'Homebrew' | escape }}</span>{% if recipe.demo %}<span class="demo-label">Sample recipe</span>{% endif %}</div>
+    <h3>{{ recipe.name | default: slug | escape }}</h3>
+    {% if recipe.summary %}<p class="card-summary">{{ recipe.summary | escape }}</p>{% endif %}
+    <div class="card-bottom"><span><strong>{{ recipe.stats.abv | default: '—' | escape }}</strong><small>ABV</small></span><span><strong>{{ recipe.stats.ibu | default: '—' | escape }}</strong><small>IBU</small></span><span><strong>{{ recipe.batch.size | default: '—' | escape }}</strong><small>Yield</small></span><span class="view-icon" aria-hidden="true">↗</span></div>
+  </div>
+</a>

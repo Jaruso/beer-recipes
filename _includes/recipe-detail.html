@@ -1,0 +1,41 @@
+{% assign recipe = include.recipe %}
+{% assign slug = include.slug %}
+<article class="recipe-detail" id="recipe-{{ slug | escape }}" data-recipe-detail data-title="{{ recipe.name | default: slug | escape }}">
+  <div class="detail-actions"><a class="back-link" href="#catalog">← All recipes</a><button class="print-button" type="button" data-print>Print recipe ↗</button></div>
+  <header class="detail-header">
+    <div><div class="eyebrow">{{ recipe.style | default: 'Homebrew' | escape }} {% if recipe.demo %} · SAMPLE RECIPE{% endif %}</div><h1>{{ recipe.name | default: slug | escape }}</h1>{% if recipe.summary %}<p class="detail-summary">{{ recipe.summary | escape }}</p>{% endif %}</div>
+    {% if recipe.image %}<img class="detail-hero-image" src="{{ recipe.image | relative_url }}" alt="{{ recipe.name | escape }}" loading="lazy">{% endif %}
+  </header>
+  <div class="detail-meta">
+    <div><span>Batch size</span><strong>{{ recipe.batch.size | default: '—' | escape }}</strong></div>
+    <div><span>Brew method</span><strong>{{ recipe.batch.method | default: '—' | escape }}</strong></div>
+    <div><span>Boil time</span><strong>{{ recipe.batch.boil | default: '—' | escape }}</strong></div>
+    <div><span>Brewed</span><strong>{{ recipe.date | default: 'Not recorded' | escape }}</strong></div>
+  </div>
+  <section class="stat-panel" aria-label="Recipe statistics">
+    <div><span>OG</span><strong>{{ recipe.stats.og | default: '—' | escape }}</strong></div>
+    <div><span>FG</span><strong>{{ recipe.stats.fg | default: '—' | escape }}</strong></div>
+    <div><span>ABV</span><strong>{{ recipe.stats.abv | default: '—' | escape }}</strong></div>
+    <div><span>IBU</span><strong>{{ recipe.stats.ibu | default: '—' | escape }}</strong></div>
+    <div><span>Color</span><strong>{{ recipe.stats.color | default: '—' | escape }}</strong></div>
+  </section>
+  <div class="detail-columns">
+    <div class="detail-main">
+      <section class="recipe-section">
+        <div class="section-heading"><span class="section-number">01</span><h2>Ingredients</h2></div>
+        {% if recipe.fermentables and recipe.fermentables.size > 0 %}<h3>Fermentables</h3><div class="ingredient-list">{% for item in recipe.fermentables %}<div class="ingredient-row"><strong>{{ item.amount | escape }}</strong><span>{{ item.name | escape }}</span></div>{% endfor %}</div>{% endif %}
+        {% if recipe.hops and recipe.hops.size > 0 %}<h3>Hops</h3><div class="ingredient-list">{% for item in recipe.hops %}<div class="ingredient-row"><strong>{{ item.amount | escape }}</strong><span>{{ item.name | escape }}{% if item.timing %}<small>{{ item.timing | escape }}</small>{% endif %}</span></div>{% endfor %}</div>{% endif %}
+        {% if recipe.yeast and recipe.yeast.size > 0 %}<h3>Yeast</h3><div class="ingredient-list">{% for item in recipe.yeast %}<div class="ingredient-row"><strong>{{ item.amount | escape }}</strong><span>{{ item.name | escape }}{% if item.notes %}<small>{{ item.notes | escape }}</small>{% endif %}</span></div>{% endfor %}</div>{% endif %}
+        {% if recipe.other_ingredients and recipe.other_ingredients.size > 0 %}<h3>Other additions</h3><div class="ingredient-list">{% for item in recipe.other_ingredients %}<div class="ingredient-row"><strong>{{ item.amount | escape }}</strong><span>{{ item.name | escape }}{% if item.timing %}<small>{{ item.timing | escape }}</small>{% endif %}</span></div>{% endfor %}</div>{% endif %}
+      </section>
+      {% if recipe.process and recipe.process.size > 0 %}<section class="recipe-section"><div class="section-heading"><span class="section-number">02</span><h2>Brew day & process</h2></div><ol class="process-steps">{% for step in recipe.process %}<li><h3>{{ step.name | escape }}</h3><p>{{ step.instructions | escape }}</p></li>{% endfor %}</ol></section>{% endif %}
+    </div>
+    <aside class="detail-sidebar">
+      {% if recipe.notes and recipe.notes.size > 0 %}<section class="notes-box"><div class="eyebrow">BREWER'S NOTES</div>{% for note in recipe.notes %}<p>{{ note | escape }}</p>{% endfor %}</section>{% endif %}
+      {% if recipe.tags and recipe.tags.size > 0 %}<section class="tags-box"><h3>Filed under</h3><div class="tag-list">{% for tag in recipe.tags %}<span class="tag">{{ tag | escape }}</span>{% endfor %}</div></section>{% endif %}
+      <section class="source-box"><span class="eyebrow">OPEN RECIPE</span><p>Every batch has a story. This recipe is stored as a plain YAML file in GitHub.</p><a href="{{ site.repository_url }}/blob/main/_data/recipes/{{ slug | escape }}.yml" target="_blank" rel="noopener noreferrer">View recipe source ↗</a></section>
+    </aside>
+  </div>
+  {% if recipe.gallery and recipe.gallery.size > 0 %}<section class="recipe-section gallery-section"><div class="section-heading"><span class="section-number">03</span><h2>From the brew day</h2></div><div class="photo-gallery">{% for photo in recipe.gallery %}<img src="{{ photo | relative_url }}" alt="{{ recipe.name | escape }} brew-day photo {{ forloop.index }}" loading="lazy">{% endfor %}</div></section>{% endif %}
+  <div class="detail-end"><a class="back-link" href="#catalog">← Back to recipe collection</a></div>
+</article>

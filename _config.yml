@@ -1,0 +1,11 @@
+title: The Brewbook
+tagline: Brewed with care. Shared in the open.
+description: A personal collection of homebrew beer recipes, tasting notes, and brew-day details.
+url: https://jaruso.github.io
+baseurl: /beer-recipies
+repository_url: https://github.com/Jaruso/beer-recipies
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

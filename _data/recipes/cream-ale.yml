@@ -1,0 +1,50 @@
+# SAMPLE RECIPE — replace this with one of your own brews.
+name: "Summer Cream Ale"
+style: "Cream Ale"
+summary: "Light-bodied, clean, and refreshing with a hint of corn sweetness."
+demo: true
+date: "2026-09-01"
+tags:
+  - All grain
+  - Crisp
+  - Summer
+# No image is required; cards without one get the built-in illustrated placeholder.
+batch:
+  size: "5 US gal"
+  method: "All grain"
+  boil: "60 minutes"
+stats:
+  og: "1.046"
+  fg: "1.009"
+  abv: "4.9%"
+  ibu: "17"
+  color: "3 SRM"
+fermentables:
+  - amount: "7.5 lb"
+    name: "American 2-row malt"
+  - amount: "2 lb"
+    name: "Flaked corn"
+  - amount: "0.5 lb"
+    name: "Dextrin malt"
+hops:
+  - amount: "0.5 oz"
+    name: "Willamette"
+    timing: "60 minutes"
+  - amount: "0.5 oz"
+    name: "Willamette"
+    timing: "10 minutes"
+yeast:
+  - amount: "1 packet"
+    name: "SafAle US-05"
+other_ingredients: []
+process:
+  - name: Mash
+    instructions: "Mash at 150°F for 60 minutes."
+  - name: Boil
+    instructions: "Boil 60 minutes, following the hop schedule."
+  - name: Ferment
+    instructions: "Cool to 65°F and ferment until final gravity is stable."
+  - name: Condition
+    instructions: "Cold-condition for a week or more to improve clarity."
+notes:
+  - "Sample recipe for demonstrating the site. Replace with your actual cream ale recipe."
