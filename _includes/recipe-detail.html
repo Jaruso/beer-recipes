@@ -29,13 +29,33 @@
         {% if recipe.other_ingredients and recipe.other_ingredients.size > 0 %}<h3>Other additions</h3><div class="ingredient-list">{% for item in recipe.other_ingredients %}<div class="ingredient-row"><strong>{{ item.amount | escape }}</strong><span>{{ item.name | escape }}{% if item.timing %}<small>{{ item.timing | escape }}</small>{% endif %}</span></div>{% endfor %}</div>{% endif %}
       </section>
       {% if recipe.process and recipe.process.size > 0 %}<section class="recipe-section"><div class="section-heading"><span class="section-number">02</span><h2>Brew day & process</h2></div><ol class="process-steps">{% for step in recipe.process %}<li><h3>{{ step.name | escape }}</h3><p>{{ step.instructions | escape }}</p></li>{% endfor %}</ol></section>{% endif %}
+      {% assign next_section_number = 3 %}
+      {% if recipe.water_profile %}
+      <section class="recipe-section">
+        <div class="section-heading"><span class="section-number">{{ next_section_number | prepend: '0' }}</span><h2>Water profile</h2></div>
+        {% if recipe.water_profile.source %}<p>{{ recipe.water_profile.source | escape }}</p>{% endif %}
+        {% if recipe.water_profile.planned_total %}<p><strong>Planned water:</strong> {{ recipe.water_profile.planned_total | escape }}</p>{% endif %}
+        {% if recipe.water_profile.target_mash_ph %}<p><strong>Target mash pH:</strong> {{ recipe.water_profile.target_mash_ph | escape }}</p>{% endif %}
+        {% if recipe.water_profile.minerals and recipe.water_profile.minerals.size > 0 %}
+        <div class="ingredient-list">{% for mineral in recipe.water_profile.minerals %}<div class="ingredient-row"><strong>{{ mineral.after | escape }}</strong><span>{{ mineral.name | escape }}<small>Original tap: {{ mineral.tap | escape }} · Target: {{ mineral.goal | escape }}</small></span></div>{% endfor %}</div>
+        {% endif %}
+      </section>
+      {% assign next_section_number = next_section_number | plus: 1 %}
+      {% endif %}
+      {% if recipe.brew_log and recipe.brew_log.size > 0 %}
+      <section class="recipe-section">
+        <div class="section-heading"><span class="section-number">{{ next_section_number | prepend: '0' }}</span><h2>Brew log: target vs. actual</h2></div>
+        <div class="ingredient-list">{% for record in recipe.brew_log %}<div class="ingredient-row"><strong>{{ record.actual | escape }}</strong><span>{{ record.measurement | escape }}<small>Planned: {{ record.target | escape }}</small></span></div>{% endfor %}</div>
+      </section>
+      {% assign next_section_number = next_section_number | plus: 1 %}
+      {% endif %}
     </div>
     <aside class="detail-sidebar">
       {% if recipe.notes and recipe.notes.size > 0 %}<section class="notes-box"><div class="eyebrow">BREWER'S NOTES</div>{% for note in recipe.notes %}<p>{{ note | escape }}</p>{% endfor %}</section>{% endif %}
       {% if recipe.tags and recipe.tags.size > 0 %}<section class="tags-box"><h3>Filed under</h3><div class="tag-list">{% for tag in recipe.tags %}<span class="tag">{{ tag | escape }}</span>{% endfor %}</div></section>{% endif %}
-      <section class="source-box"><span class="eyebrow">RECIPE SOURCES</span>{% if recipe.source_url %}<p>Originally published by Brew Free or Die on Brewer's Friend. This is an independent, source-controlled copy.</p><p><a href="{{ recipe.source_url | escape }}" target="_blank" rel="noopener noreferrer">View original on Brewer's Friend ↗</a></p>{% else %}<p>This recipe is maintained as a plain YAML file in GitHub.</p>{% endif %}<p><a href="{{ site.repository_url }}/blob/main/_data/recipes/{{ slug | escape }}.yml" target="_blank" rel="noopener noreferrer">View YAML in GitHub ↗</a></p></section>
+      <section class="source-box"><span class="eyebrow">RECIPE SOURCES</span>{% if recipe.source_url %}{% if recipe.source_label %}<p>Recipe source: {{ recipe.source_label | escape }}. Preserved here as a source-controlled copy.</p><p><a href="{{ recipe.source_url | escape }}" target="_blank" rel="noopener noreferrer">View source document ↗</a></p>{% else %}<p>Originally published by Brew Free or Die on Brewer's Friend. This is an independent, source-controlled copy.</p><p><a href="{{ recipe.source_url | escape }}" target="_blank" rel="noopener noreferrer">View original on Brewer's Friend ↗</a></p>{% endif %}{% else %}<p>This recipe is maintained as a plain YAML file in GitHub.</p>{% endif %}<p><a href="{{ site.repository_url }}/blob/main/_data/recipes/{{ slug | escape }}.yml" target="_blank" rel="noopener noreferrer">View YAML in GitHub ↗</a></p></section>
     </aside>
   </div>
-  {% if recipe.gallery and recipe.gallery.size > 0 %}<section class="recipe-section gallery-section"><div class="section-heading"><span class="section-number">03</span><h2>From the brew day</h2></div><div class="photo-gallery">{% for photo in recipe.gallery %}<img src="{{ photo | relative_url }}" alt="{{ recipe.name | escape }} brew-day photo {{ forloop.index }}" loading="lazy">{% endfor %}</div></section>{% endif %}
+  {% if recipe.gallery and recipe.gallery.size > 0 %}<section class="recipe-section gallery-section"><div class="section-heading"><span class="section-number">{% if next_section_number %}{{ next_section_number | prepend: '0' }}{% else %}03{% endif %}</span><h2>From the brew day</h2></div><div class="photo-gallery">{% for photo in recipe.gallery %}<img src="{{ photo | relative_url }}" alt="{{ recipe.name | escape }} brew-day photo {{ forloop.index }}" loading="lazy">{% endfor %}</div></section>{% endif %}
   <div class="detail-end"><a class="back-link" href="#catalog">← Back to recipe collection</a></div>
 </article>
