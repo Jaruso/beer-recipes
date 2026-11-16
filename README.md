@@ -1,6 +1,8 @@
-# The Brewbook 🍺
+# Brew Free or Die 🍺
 
-A clean, static beer-recipe collection hosted on **GitHub Pages**. Recipes are individual YAML files, so adding a new brew never requires editing HTML, CSS, JavaScript, a manifest, or a recipe index.
+### The Caruso Brew Book
+
+The recipe archive for **Brew Free or Die**, home of **The Caruso Brew Book**. A clean, static beer-recipe collection hosted on **GitHub Pages**. Recipes are individual YAML files, so adding a new brew never requires editing HTML, CSS, JavaScript, a manifest, or a recipe index.
 
 **How it works:** GitHub Pages runs its built-in Jekyll generator. Jekyll automatically reads every `.yml` / `.yaml` file in `_data/recipes/` and renders the recipe cards and details into static HTML. The tiny bit of browser JavaScript is just for search, style filters, and navigating between recipes.
 
