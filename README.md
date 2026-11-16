@@ -27,9 +27,9 @@ featured: false   # Hide from the website
 
 The website renders **only** recipes with `featured: true`. A missing flag is also considered hidden. The catalog cards, search/style filters, featured count and recipe detail pages are all filtered during the Jekyll build. Hidden recipes are not present in the generated HTML, even if someone tries a direct `#recipe-slug` URL.
 
-**Currently featured (12):** Banana Blueberry Berliner, Barre Blonde, Boys in Barre Ale, Can o' Corn I'll be Fine, Jocko's Enkel, Rye so Malty, Salty Melons Pseudo Lager, Mars and Beer, Super Bowl Lager, Travelers Trappist, Peaches and Cream, and Stupid Sexy. The remaining 14 are hidden from the website.
+**Currently featured (12):** Banana Blueberry Berliner, Barre Blonde, Boys in Barre Ale, Can o' Corn I'll be Fine, Jocko's Enkel, Rye so Malty, Salty Melons Pseudo Lager, Mars and Beer, Super Bowl Lager, Travelers Trappist, Peaches and Cream, and Stupid Sexy. The remaining 35 are hidden from the website (21 archived Instagram imports plus the previously hidden records).
 
-**Visibility is not privacy:** Because this GitHub repository is public, anyone can still see the YAML source for all 26 recipes, including those with `featured: false`.
+**Visibility is not privacy:** Because this GitHub repository is public, anyone can still see the YAML source for all 47 recipes, including those with `featured: false`.
 
 ## Add a beer recipe (no code changes)
 
@@ -79,7 +79,7 @@ notes:
 #   - assets/images/my-neipa-pour.jpg
 ```
 
-The example values above are illustrative, not a saved recipe. The site currently contains the 25 public recipes imported from [Brew Free or Die's Brewer's Friend profile](https://www.brewersfriend.com/homebrew/brewer/344442/brew-free-or-die) on November 15, 2026.
+The example values above are illustrative, not a saved recipe. The collection includes 25 public recipes imported from [Brew Free or Die's Brewer's Friend profile](https://www.brewersfriend.com/homebrew/brewer/344442/brew-free-or-die), the Stupid Sexy 2026 revival, and 21 historical recipe records reconstructed from the brewer's Instagram captions.
 
 ### Optional recipe fields
 
@@ -110,7 +110,7 @@ instagram_posts:
     source_difference: "Optional: explain how this differs from the planned Brewer's Friend recipe."
 ```
 
-The optional Instagram notes appear on a recipe detail page with a direct link to each source post. Source discrepancies remain visible rather than being silently reconciled. The initial pass added eight identified beer-related feed posts to the matching YAML files; other posts have not been exhaustively reviewed. The 12 featured recipe flags were not changed.
+The optional Instagram notes appear on a recipe detail page with a direct link to each source post. Source discrepancies remain visible rather than being silently reconciled. The initial pass added eight identified beer-related feed posts. The later archive migration added 21 new historical recipe YAML files (including one explicitly labeled cider/wine) and four more Instagram post references across three pre-existing recipes. The 12 featured recipe flags were not changed.
 
 ## Local preview
 
@@ -147,3 +147,11 @@ All **25 public** Brew Free or Die recipes on the profile were copied into indiv
 - No recipe photographs or private brew-session logs were copied. Add your own local files under `assets/images/` and reference them from recipe YAML when desired.
 - This import is a **snapshot**, not an ongoing synchronization. Editing a Brewer's Friend recipe will not update the YAML automatically.
 - Where the rendered Brewer's Friend hop table showed dry-hop durations in **days** but its copied text export mislabeled them as minutes, the YAML follows the rendered table.
+
+## Historic Instagram recipe archive
+
+The repository includes 21 additional historical brew records recovered from captions on [@jaruso23](https://www.instagram.com/jaruso23/). Every new entry is `featured: false`, and each links to its original Instagram post. The original 2020 Stupid Sexy is its own file and **does not overwrite** the separately featured 2026 revival. Salty Melon Göse and Salty Melons Pseudo Lager are also distinct records. Sparkling Apple Chardonnay is explicitly labeled as cider/fruit wine, not beer.
+
+Some archived recipes are **partial**: captions give ingredient names or proportions but not exact weights, timings, yeast or original gravity. Missing values are marked "Amount not recorded" or omitted; they are not calculated or replaced with values from other batches. Reported finishing measurements are labeled as brewer observations. Future recipe ideas are presented as notes, not ingredients of the original batches.
+
+The highlighted homepage remains a curated selection of **12** recipes, while all **47** YAML files are retained in source control. Historical posts without enough evidence to describe a finished brew (for example a wild-yeast collection experiment or an unidentifiable unnamed beer) are not merged into unrelated recipes.

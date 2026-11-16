@@ -1,0 +1,23 @@
+# Historical recipe transcribed from public @jaruso23 Instagram posts.
+# Unpublished quantities are not estimated.
+featured: false
+name: "Mark of the Beast Kölsch Style Ale"
+style: "Kölsch-style Ale"
+summary: "Crisp Kölsch-style ale with equal parts Pilsner and Vienna and a light Cascade hop character."
+source_url: "https://www.instagram.com/jaruso23/p/CKPv-xBFEwX/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+stats:
+  abv: "6.66% (brewer-reported)"
+fermentables:
+  - amount: "50% of grain bill"
+    name: "Pilsner malt"
+  - amount: "50% of grain bill"
+    name: "Vienna malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Cascade"
+    timing: "Timing not recorded"
+notes:
+  - "Crisp, light-bodied and very low bitterness, with a possible light apple-like ester note."
+  - "ABV reported as 6.66%; yeast strain and precise brewing parameters not reported."

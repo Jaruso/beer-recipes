@@ -1,0 +1,54 @@
+# Historical recipe transcribed from a public @jaruso23 Instagram post.
+# Missing amounts / timings are recorded as unknown, not estimated.
+featured: false
+name: "Tropic Thunder"
+style: "Specialty IPA: New England IPA"
+summary: "A hop-forward NEIPA with pineapple and passion-fruit aroma that finished much drier than intended."
+source_url: "https://www.instagram.com/jaruso23/p/B_BdQZwlqdf/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  method: "All grain"
+  boil: "60 minutes"
+fermentables:
+  - amount: "10 lb"
+    name: "Pale malt"
+  - amount: "2 lb"
+    name: "Vienna malt"
+  - amount: "2 lb"
+    name: "Flaked oats"
+  - amount: "2 lb"
+    name: "Flaked white wheat"
+hops:
+  - amount: "1 oz"
+    name: "Ekuanot"
+    timing: "Whirlpool; duration not reported"
+  - amount: "1 oz"
+    name: "Azacca"
+    timing: "Whirlpool; duration not reported"
+  - amount: "1 oz"
+    name: "El Dorado"
+    timing: "Whirlpool; duration not reported"
+  - amount: "1 oz"
+    name: "Ekuanot"
+    timing: "High-krausen dry hop"
+  - amount: "1 oz"
+    name: "Azacca"
+    timing: "High-krausen dry hop"
+  - amount: "1 oz"
+    name: "El Dorado"
+    timing: "High-krausen dry hop"
+other_ingredients:
+  - amount: "2 cups"
+    name: "Sugar"
+    timing: "Boil, at the 5-minute mark per caption (exact timing convention not stated)"
+process:
+  - name: "Mash"
+    instructions: "151°F for 60 minutes."
+  - name: "Boil"
+    instructions: "60 minutes; add sugar at the 5-minute mark specified in the Instagram caption."
+  - name: "Whirlpool and dry hop"
+    instructions: "Whirlpool the three named hops and repeat the same three-hop additions at high krausen. Contact times and temperatures were not recorded."
+notes:
+  - "Finished unusually dry for a NEIPA, with pineapple, passion fruit, floral and pepper characteristics; brewer liked the beer but not the missing juicy body."
+  - "Suggested next time: omit the sugar and consider adding Mosaic. These are proposed changes, not part of this batch."

@@ -1,0 +1,37 @@
+# Historical homebrew record transcribed from @jaruso23 Instagram.
+# Unknown ingredient amounts and schedules have deliberately not been invented.
+featured: false
+name: "Stupid Sexy (2020 Original)"
+style: "Specialty IPA: New England IPA"
+summary: "The original tropical, low-bitterness Stupid Sexy NEIPA with orange-juice mouthfeel and golden, dark-wheat malt depth."
+source_url: "https://www.instagram.com/jaruso23/p/CIOrCeIlEpH/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+fermentables:
+  - amount: "Amount not recorded"
+    name: "Golden Promise"
+  - amount: "Amount not recorded"
+    name: "Light Munich malt"
+  - amount: "Amount not recorded"
+    name: "Dark wheat malt"
+  - amount: "Amount not recorded"
+    name: "Flaked corn"
+  - amount: "Amount not recorded"
+    name: "Flaked oats"
+hops:
+  - amount: "Amount not recorded"
+    name: "Huell Melon"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "El Dorado"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Motueka"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Citra"
+    timing: "Timing not recorded"
+notes:
+  - "Original Instagram caption describes mango, citrus and melon, orange-juice-like texture, low bitterness, slight maltiness, fruit-forward flavor and excellent head retention."
+  - "The original Instagram post does not contain grain weights or hop schedules. Do not use the 2026 reconstruction quantities for the 2020 batch."
+  - "Distinct from 'Stupid Sexy' 2026 Revival, which is separately archived and featured."

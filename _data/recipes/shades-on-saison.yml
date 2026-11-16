@@ -1,0 +1,25 @@
+# Historical recipe transcribed from public @jaruso23 Instagram posts.
+# Unpublished quantities are not estimated.
+featured: false
+name: "Shades On Saison"
+style: "Saison"
+summary: "A clear, light and spicy farmhouse ale with clove and peach notes."
+source_url: "https://www.instagram.com/jaruso23/p/CSxP7X-rr7l/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+fermentables:
+  - amount: "75% of grain bill"
+    name: "Pale malt"
+  - amount: "25% of grain bill"
+    name: "Light Munich malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Centennial"
+    timing: "Bittering"
+  - amount: "Amount not recorded"
+    name: "Wai-iti"
+    timing: "Flavor and aroma"
+notes:
+  - "Brewer called this a standout saison after some unsuccessful previous brews."
+  - "Finished clear and pleasantly light, with clove-like spiciness, peach fruitiness and attractive color."
+  - "Exact volumes, hop weights, yeast and fermentation schedule were not reported."

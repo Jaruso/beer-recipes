@@ -1,0 +1,65 @@
+# Historical recipe transcribed from a public @jaruso23 Instagram post.
+# Missing amounts / timings are recorded as unknown, not estimated.
+featured: false
+name: "Orange Creamsicle Ale"
+style: "Specialty Ale"
+summary: "Creamy orange-and-vanilla ale with oats, honey malt, lactose and layered citrus hops."
+source_url: "https://www.instagram.com/jaruso23/p/B9lEe6Kl64U/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  method: "All grain"
+  boil: "60 minutes"
+stats:
+  abv: "5.9% (measured, brewer-reported)"
+fermentables:
+  - amount: "8 lb"
+    name: "Rahr Old World Pils"
+  - amount: "1 lb"
+    name: "Proximity Crystal malt"
+  - amount: "1 lb"
+    name: "Gambrinus Honey Malt"
+  - amount: "1 lb"
+    name: "Meassdoerffer Melanoidin malt"
+  - amount: "1 lb"
+    name: "Flaked oats"
+hops:
+  - amount: "1 oz"
+    name: "Bravo"
+    timing: "Boil, @20 min per caption"
+  - amount: "1 oz"
+    name: "Comet"
+    timing: "Boil, @40 min per caption"
+  - amount: "1 oz"
+    name: "Mandarin Bavaria"
+    timing: "Hop stand (duration and temperature not stated)"
+  - amount: "1 oz"
+    name: "Azacca"
+    timing: "24 hours after yeast pitch"
+  - amount: "1 oz"
+    name: "Amarillo"
+    timing: "24 hours after yeast pitch"
+yeast:
+  - amount: "Starter; amount unspecified"
+    name: "Saved yeast from previous NEIPA; strain unidentified"
+other_ingredients:
+  - amount: "4 oz"
+    name: "Lactose sugar"
+    timing: "Boil, @55 min per caption"
+  - amount: "1 oz"
+    name: "Orange peel"
+    timing: "Boil, @55 min per caption"
+  - amount: "2.5 fl oz"
+    name: "Vanilla extract"
+    timing: "24 hours after yeast pitch"
+process:
+  - name: "Mash"
+    instructions: "Mash at 155°F for 60 minutes."
+  - name: "Boil"
+    instructions: "60-minute boil with hop, lactose and orange-peel additions recorded at their respective time marks."
+  - name: "Ferment"
+    instructions: "Pitch a revived starter made from previously stored NEIPA yeast; add Azacca, Amarillo and vanilla extract after 24 hours. Fermentation lasted approximately two weeks."
+notes:
+  - "Measured ABV 5.9%. Brewer liked the strong orange-citrus, subtle passion-fruit and pine notes, and vanilla balance, though the creamy texture could improve."
+  - "Future change proposed: mash around 160°F, increase lactose to 5 oz, add more oats and simplify hops to 4 oz Mandarin Bavaria (2 oz at 40 minutes, 2 oz dry hop). These are suggestions, not original additions."
+  - "The caption gives additions as @20, @40 and @55 minutes without explicitly saying whether times are elapsed or remaining; their wording is retained."

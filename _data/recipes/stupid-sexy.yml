@@ -160,3 +160,7 @@ notes:
   - "First recorded Tilt gravity of 1.063 is only a provisional proxy for original gravity; it is not a verified cooled-wort OG. Latest snapshot was 1.058 SG at 64°F on November 15, 2026 at approximately 4:54 p.m. Eastern; fermentation is still underway. The ABV reading at that time (~0.66%) is preliminary, not the finished ABV."
   - "Actual pre-boil gravity reading was 1.042 at 155°F; a hot hydrometer correction is unreliable. Use a cooled gravity sample to confirm before adjusting wort."
   - "Water additions assume calcium chloride dihydrate and gypsum dihydrate. If using anhydrous calcium chloride, recalculate dosage. Chloride-to-sulfate ratio is approximately 2.1:1; mash pH and tap-water composition require measurement."
+instagram_posts:
+  - url: "https://www.instagram.com/jaruso23/p/CIOrCeIlEpH/"
+    notes: "Original 2020 Stupid Sexy: Golden Promise, light Munich, dark wheat, flaked corn and oats, hopped with Huell Melon, El Dorado, Motueka and Citra. Flavor: mango, citrus and melon; orange-juice texture, low bitterness, slight maltiness and good head retention."
+    source_difference: "This is the original 2020 beer, not the 2026 reconstruction shown here. It is now also preserved as a separate historical YAML file named stupid-sexy-2020.yml."

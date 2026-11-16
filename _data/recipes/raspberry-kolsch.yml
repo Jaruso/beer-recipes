@@ -1,0 +1,27 @@
+# Historical homebrew record transcribed from @jaruso23 Instagram.
+# Unknown ingredient amounts and schedules have deliberately not been invented.
+featured: false
+name: "Raspberry Kölsch"
+style: "Kölsch-style Ale"
+summary: "A balanced, lightly hopped Kölsch-style beer with Pilsner, wheat, Tettnang and Saaz."
+source_url: "https://www.instagram.com/jaruso23/p/B5YwTBHF6hQ/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+fermentables:
+  - amount: "Majority; weight not recorded"
+    name: "Pilsner malt"
+  - amount: "Amount not recorded"
+    name: "Wheat malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Tettnang"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Saaz"
+    timing: "Timing not recorded"
+yeast:
+  - amount: "Amount not recorded"
+    name: "Wyeast 2565 Kölsch"
+notes:
+  - "The original caption names this Raspberry Kölsch but does not list any raspberry quantity or addition. Fruit is not included as a confirmed ingredient."
+  - "Color was good, but the beer was hazy; brewer suspected wheat or chill haze. Flavor was balanced, with low bitterness and restrained maltiness."

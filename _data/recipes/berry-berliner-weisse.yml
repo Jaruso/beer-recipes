@@ -1,0 +1,60 @@
+# Historical recipe transcribed from a public @jaruso23 Instagram post.
+# Missing amounts / timings are recorded as unknown, not estimated.
+featured: false
+name: "Berry Berliner Weisse"
+style: "Berliner Weisse"
+summary: "An early kettle-soured berry Berliner with wheat, pilsner and crystal malt, fresh berries, and kveik."
+source_url: "https://www.instagram.com/jaruso23/p/CBJzeGElasI/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  method: "All grain, kettle sour"
+stats:
+  abv: "3% (brewer-reported)"
+  ibu: "0 (brewer-reported)"
+  final_ph: "3.2 (brewer-reported)"
+fermentables:
+  - amount: "45% of grain bill"
+    name: "Wheat malt"
+  - amount: "45% of grain bill"
+    name: "Pilsner malt"
+  - amount: "10% of grain bill"
+    name: "Crystal malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Mosaic"
+    timing: "Dry hop after yeast pitch"
+  - amount: "Amount not recorded"
+    name: "Citra"
+    timing: "Dry hop after yeast pitch"
+  - amount: "Amount not recorded"
+    name: "Wai-iti"
+    timing: "Dry hop after yeast pitch"
+yeast:
+  - amount: "Amount not recorded"
+    name: "Kveik yeast"
+other_ingredients:
+  - amount: "A couple cartons"
+    name: "GoodBelly probiotic product (Lactobacillus plantarum)"
+    timing: "Kettle sour, 3 days"
+  - amount: "Amount not recorded"
+    name: "Fresh blueberries"
+    timing: "After souring; before/at boil"
+  - amount: "Amount not recorded"
+    name: "Fresh raspberries"
+    timing: "After souring; before/at boil"
+  - amount: "Amount not recorded"
+    name: "Fresh blackberries"
+    timing: "After souring; before/at boil"
+process:
+  - name: "Kettle sour"
+    instructions: "After mashing, cool wort, add GoodBelly and allow to sour for three days to pH 3.3."
+  - name: "Boil and fruit"
+    instructions: "Boil after souring and add fresh blueberries, raspberries and blackberries; precise addition times not stated."
+  - name: "Ferment and dry hop"
+    instructions: "Pitch kveik at '100 degrees' as the caption states (unit not specified). Dry hop with Mosaic, Citra and Wai-iti the following morning."
+  - name: "Package"
+    instructions: "Fermentation was complete and beer kegged approximately two days later; final pH reported as 3.2."
+notes:
+  - "Brewer called this his first sour, described it as delicious and very tart. Reported 3% ABV and 0 IBU."
+  - "Distinct from the later Banana Blueberry Berliner recipe already in the collection."

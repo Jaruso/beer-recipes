@@ -1,0 +1,26 @@
+# Historical homebrew record transcribed from @jaruso23 Instagram.
+# Unknown ingredient amounts and schedules have deliberately not been invented.
+featured: false
+name: "Norwegian Style IPA (NIPA)"
+style: "Norwegian-style IPA"
+summary: "Juicy IPA fermented with Norwegian kveik and Mandarin Bavaria, Galena and Green Bullet hops."
+source_url: "https://www.instagram.com/jaruso23/p/CAlIdAhlpAz/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+hops:
+  - amount: "Amount not recorded"
+    name: "Mandarin Bavaria"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Galena"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Green Bullet"
+    timing: "Timing not recorded"
+yeast:
+  - amount: "Amount not recorded"
+    name: "Norwegian kveik yeast; exact strain not recorded"
+notes:
+  - "Caption describes a NEIPA-like concept adapted to kveik yeast."
+  - "Intended flavor profile included peach, apricot and tangerine; no OG, measured ABV, grain bill or precise temperature was given."
+  - "Source post also describes Coronavirus Kölsch, which has its own recipe file."

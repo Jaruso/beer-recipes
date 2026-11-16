@@ -1,0 +1,41 @@
+# Historical homebrew record transcribed from @jaruso23 Instagram.
+# Unknown ingredient amounts and schedules have deliberately not been invented.
+featured: false
+name: "Denver Holiday NEIPA (2019, Unnamed)"
+style: "Specialty IPA: New England IPA"
+summary: "An unnamed Denver-era holiday NEIPA with mixed base malts, oats, layered dry hops and a reported ~7% ABV."
+source_url: "https://www.instagram.com/jaruso23/p/B6MDDN8l_19/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+stats:
+  abv: "~7% (brewer-reported)"
+fermentables:
+  - amount: "Equal parts; weights not stated"
+    name: "2-row pale malt"
+  - amount: "Equal parts; weights not stated"
+    name: "Pilsner malt"
+  - amount: "Equal parts; weights not stated"
+    name: "Wheat malt"
+  - amount: "1 lb"
+    name: "Flaked oats"
+hops:
+  - amount: "Amount not recorded"
+    name: "Azacca"
+    timing: "Hop stand / high-krausen dry hop / later dry hop; allocation unspecified"
+  - amount: "Amount not recorded"
+    name: "Citra"
+    timing: "Hop stand / high-krausen dry hop / later dry hop; allocation unspecified"
+  - amount: "Amount not recorded"
+    name: "El Dorado"
+    timing: "Hop stand / high-krausen dry hop / later dry hop; allocation unspecified"
+  - amount: "Amount not recorded"
+    name: "Mosaic"
+    timing: "Hop stand / high-krausen dry hop / later dry hop; allocation unspecified"
+other_ingredients:
+  - amount: "Amount not recorded"
+    name: "Calcium chloride"
+    timing: "Water adjustment"
+notes:
+  - "Brew name was not provided in the caption. This descriptive archive name distinguishes the batch from other NEIPAs."
+  - "Brewer was pleased with hop aroma, flavor, balance of bitterness and sweetness, and mouthfeel. Color was slightly darker than desired."
+  - "A separate earlier post describes an NEIPA dry hopped in a secondary keg with Azacca and Citra, but the available captions do not prove it is this exact batch; no cross-batch merge was made."

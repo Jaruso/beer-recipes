@@ -1,0 +1,47 @@
+# Historical recipe transcribed from a public @jaruso23 Instagram post.
+# Missing amounts / timings are recorded as unknown, not estimated.
+featured: false
+name: "Hazy Lemon Session Kölsch"
+style: "Kölsch-style Ale"
+summary: "A hazy, lemony session Kölsch using a large Lemondrop hop addition and a cool fermentation."
+source_url: "https://www.instagram.com/jaruso23/p/B7zCfbml452/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  method: "All grain"
+  boil: "60 minutes"
+stats:
+  abv: "~4.2% (brewer-reported)"
+  fg: "1.010 (measured, brewer-reported)"
+fermentables:
+  - amount: "7.5 lb"
+    name: "Weyermann Pilsen"
+  - amount: "1 lb"
+    name: "Flaked oats"
+  - amount: "1 lb"
+    name: "Flaked wheat"
+  - amount: "0.5 lb"
+    name: "Dingemans Dextrin / Carapils 8"
+hops:
+  - amount: "0.25 oz"
+    name: "Perle"
+    timing: "Start of 60-minute boil"
+  - amount: "5 oz total"
+    name: "Lemondrop"
+    timing: "Split between hop stand and dry hop; proportions not provided"
+yeast:
+  - amount: "Amount not recorded"
+    name: "Kölsch yeast; exact strain not recorded"
+process:
+  - name: "Mash"
+    instructions: "151°F for 60 minutes."
+  - name: "Boil"
+    instructions: "60 minutes, with 0.25 oz Perle at the start."
+  - name: "Ferment"
+    instructions: "Hold at 60°F for approximately 1.5 weeks."
+  - name: "Condition"
+    instructions: "Lager for one week, then filter."
+notes:
+  - "Brewer called this one of his favorites. Lemon flavor paired well with wheat, oats gave body, and Kölsch yeast contributed fruity notes. Low bitterness with a little sweetness."
+  - "Finished at FG 1.010 and approximately 4.2% ABV. Proposed future mash at 160°F for a fuller finish; not part of this recorded batch."
+  - "A Shandy using lemonade was floated as an idea but was not confirmed as brewed."

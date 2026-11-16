@@ -1,0 +1,35 @@
+# Historical recipe transcribed from public @jaruso23 Instagram posts.
+# Unpublished quantities are not estimated.
+featured: false
+name: "Tart Berry Wheat Ale"
+style: "Fruit Beer"
+summary: "Tart, fruity wheat ale with roughly seven pounds of mixed berries and a fruity dry hop."
+source_url: "https://www.instagram.com/jaruso23/p/CNVJGjPFoKF/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+fermentables:
+  - amount: "50% of grain bill"
+    name: "Wheat malt"
+  - amount: "50% of grain bill"
+    name: "Pilsner malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Huell Melon"
+    timing: "Dry hop"
+  - amount: "Amount not recorded"
+    name: "Citra"
+    timing: "Dry hop"
+  - amount: "Amount not recorded"
+    name: "Mandarina Bavaria"
+    timing: "Dry hop (spelled 'Manadarin bavaria' in caption)"
+other_ingredients:
+  - amount: "~7 lb combined"
+    name: "Blueberries, strawberries and cherries"
+    timing: "Fruit addition; timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Lactic acid"
+    timing: "Added to lower pH"
+notes:
+  - "A spur-of-the-moment beer brewed from leftover frozen fruit and grains before the brewer moved from Colorado."
+  - "Half of the keg was consumed within days. After about two months the beer had lost some hop character and tasted more like a session fruit ale."
+  - "This is a separate beer from Berry Berliner Weisse, Banana Blueberry Berliner and other fruit beers; no exact hop/acid quantities were reported."

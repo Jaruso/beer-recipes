@@ -1,0 +1,37 @@
+# Historical recipe transcribed from public @jaruso23 Instagram posts.
+# Unpublished quantities are not estimated.
+featured: false
+name: "Strawberry Vanilla Milkshake Ale"
+style: "Specialty Ale"
+summary: "Sweet milkshake-style ale with crystal malt, oats, lactose and strawberry/vanilla extracts."
+source_url: "https://www.instagram.com/jaruso23/p/CEkRvtKFKTC/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+fermentables:
+  - amount: "2 lb total"
+    name: "Crystal malts, between 10L and 120L"
+  - amount: "1 lb"
+    name: "Oats"
+  - amount: "5 lb"
+    name: "Pilsner malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Galena"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Mandarin Bavaria"
+    timing: "Timing not recorded"
+other_ingredients:
+  - amount: "1 lb"
+    name: "Lactose sugar"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Strawberry extract"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Vanilla extract"
+    timing: "Timing not recorded"
+notes:
+  - "Brewer found the beer drinkable, with sweet frothy head and milkshake-like mouthfeel from lactose."
+  - "Too much crystal malt made the result overly caramel-like, toasty and malty; the strawberry and vanilla extracts tasted artificial."
+  - "Next-batch proposals were more wheat and real strawberries/vanilla instead of extracts; these are not ingredients documented in the original batch."

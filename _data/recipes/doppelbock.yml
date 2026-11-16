@@ -1,0 +1,38 @@
+# Historical recipe transcribed from public @jaruso23 Instagram posts.
+# Unpublished quantities are not estimated.
+featured: false
+name: "Doppelbock"
+style: "Doppelbock"
+summary: "A strong Munich/Vienna lager that mellowed considerably after at least four months of cold conditioning."
+source_url: "https://www.instagram.com/jaruso23/p/B-K4qxrF9ot/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  method: "All grain, lager"
+stats:
+  og: "1.095 (brew-day reported)"
+  abv: "~10% (finished, brewer-reported)"
+fermentables:
+  - amount: "75% of grist (3:1 ratio)"
+    name: "Munich malt"
+  - amount: "25% of grist (3:1 ratio)"
+    name: "Vienna malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Magnum"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Perle"
+    timing: "Timing not recorded"
+process:
+  - name: "Brew and ferment"
+    instructions: "Initial gravity was reported as 1.095. Used SS Brewtech cooling equipment for lager fermentation."
+  - name: "Lager"
+    instructions: "Cold-conditioned in a refrigerator for at least four months. The initially harsh flavor mellowed substantially."
+notes:
+  - "The earlier brewing caption projected around 9% ABV; a later on-tap post reported ~10% ABV. The latter is the finished brewer-reported value."
+  - "Tasting: rich malt, toasted character, pine and pepper in background, excellent head retention; not overtly boozy despite strength. The brewer liked it with ice cream."
+  - "Future ideas were reducing malt for ~8% ABV, including chocolate malt and aging on cherries; none were documented as part of this brew."
+instagram_posts:
+  - url: "https://www.instagram.com/jaruso23/p/B5wsWBiFW9P/"
+    notes: "Earlier brewing post: 3:1 Munich/Vienna grist, Magnum and Perle hops, OG 1.095; projected ~9% ABV and SS Brewtech cooling kit."

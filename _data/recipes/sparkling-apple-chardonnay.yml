@@ -1,0 +1,24 @@
+# Historical homebrew record transcribed from @jaruso23 Instagram.
+# Unknown ingredient amounts and schedules have deliberately not been invented.
+featured: false
+name: "Sparkling Apple Chardonnay"
+style: "Apple Cider / Fruit Wine"
+summary: "A sparkling apple cider/wine fermented with Chardonnay yeast, then kegged and force-carbonated."
+source_url: "https://www.instagram.com/jaruso23/p/CGQHGFJlZkg/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+yeast:
+  - amount: "Amount not recorded"
+    name: "Chardonnay wine yeast"
+other_ingredients:
+  - amount: "Amount not recorded"
+    name: "Tree Top pressed apple juice"
+    timing: "Fermentation base"
+process:
+  - name: "Ferment"
+    instructions: "Ferment apple juice with Chardonnay yeast; time and temperatures were not given."
+  - name: "Package"
+    instructions: "Force carbonate in a keg."
+notes:
+  - "This is a cider/wine-style homebrew, not a beer. Archived in the broader Brew Free or Die collection."
+  - "Caption does not report ABV, batch size, sugar additions or fermentation conditions."

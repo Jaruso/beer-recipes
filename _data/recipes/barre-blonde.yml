@@ -53,3 +53,7 @@ yeast:
   - amount: "1 package"
     name: "Omega Yeast Labs - Espe Kveik"
     notes: "Fermentation temperature: 80°F."
+instagram_posts:
+  - url: "https://www.instagram.com/jaruso23/p/CUVdiGrLNH4/"
+    notes: "Brewer described a 'Hazy/Juicy Blonde Ale' with about 50% wheat, two-row barley, Munich, Crystal, oats and white rice. Hops included Comet, Citra, Monroe and Barbe Rouge. Tasting: exceptionally drinkable, silky smooth, low bitterness and light citrus/berry flavor. Future idea: develop a full NEIPA variant for competition."
+    source_difference: "Instagram says one pound of oats, while the imported Brewer's Friend file lists 0.5 lb. Keep the original recipe and note this batch difference without guessing which formulation was used."

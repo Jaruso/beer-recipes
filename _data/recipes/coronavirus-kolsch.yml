@@ -1,0 +1,20 @@
+# Historical homebrew record transcribed from @jaruso23 Instagram.
+# Unknown ingredient amounts and schedules have deliberately not been invented.
+featured: false
+name: "Coronavirus Kölsch"
+style: "Kölsch-style Ale"
+summary: "Simple, Corona Extra-inspired single-malt, single-hop Kölsch-style beer, best with lime."
+source_url: "https://www.instagram.com/jaruso23/p/CAlIdAhlpAz/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+fermentables:
+  - amount: "Amount not recorded"
+    name: "Pale malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Galena"
+    timing: "Timing not recorded"
+notes:
+  - "Described as a simple SMaSH (single malt, single hop) beer inspired by Corona Extra."
+  - "Brewer found it okay on its own and better with a lime."
+  - "Source post shares two independent beers; this entry covers Coronavirus Kölsch only."

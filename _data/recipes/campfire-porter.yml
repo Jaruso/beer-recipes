@@ -1,0 +1,41 @@
+# Historical recipe transcribed from public @jaruso23 Instagram posts.
+# Unpublished quantities are not estimated.
+featured: false
+name: "Campfire Porter"
+style: "Porter"
+summary: "Roasty porter brewed with marshmallows and cocoa, then aged on bourbon-soaked cherry wood."
+source_url: "https://www.instagram.com/jaruso23/p/CNVJGjPFoKF/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  size: "5 US gal (brewer mentions nearly dumping all five gallons)"
+fermentables:
+  - amount: "Amount not recorded"
+    name: "2-row base malt"
+  - amount: "Amount not recorded"
+    name: "Roasted malts"
+  - amount: "Amount not recorded"
+    name: "Biscuit malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Northern Brewer"
+    timing: "During boil"
+other_ingredients:
+  - amount: "1 package"
+    name: "Marshmallows"
+    timing: "During boil"
+  - amount: "Amount not recorded"
+    name: "Hershey's cocoa powder"
+    timing: "During boil"
+  - amount: "Amount not recorded"
+    name: "Bourbon-soaked cherry wood"
+    timing: "Extended maturation"
+process:
+  - name: "Brew"
+    instructions: "Boil with Northern Brewer, marshmallows and cocoa powder. Precise schedule is not recorded."
+  - name: "Age"
+    instructions: "Bourbon-soaked cherry wood was added for maturing starting around Christmas; beer spent an additional approximately two months cold outside on a deck and approximately two months aging during the move. The caption does not provide exact dates."
+notes:
+  - "Initial tasting in January was unpleasant; brewer nearly dumped the batch. Extended aging mellowed the roast character."
+  - "Final tasting described a smooth but robust porter, with earthy cherry-wood notes and subtle coffee/chocolate finish."
+  - "Original caption mentions brewing 'back in November' but does not provide a verified full brew date."

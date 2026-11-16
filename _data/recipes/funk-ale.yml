@@ -1,0 +1,26 @@
+# Historical homebrew record transcribed from @jaruso23 Instagram.
+# Unknown ingredient amounts and schedules have deliberately not been invented.
+featured: false
+name: "Funk Ale"
+style: "Brettanomyces Wild Ale"
+summary: "Long-aged Brettanomyces wild ale conditioned on cherries, developing excellent flavor only after about a year."
+source_url: "https://www.instagram.com/jaruso23/p/Cc8s6VjOXYi/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+yeast:
+  - amount: "Amount not recorded"
+    name: "Brettanomyces yeast"
+other_ingredients:
+  - amount: "Amount not recorded"
+    name: "Cherries"
+    timing: "Conditioning/aging, 3 months"
+process:
+  - name: "Ferment"
+    instructions: "Brettanomyces fermentation lasted a few weeks."
+  - name: "Age on fruit"
+    instructions: "Conditioned on cherries for approximately three months."
+  - name: "Long maturation"
+    instructions: "At six and nine months after brewing, the brewer disliked the taste. At approximately twelve months the beer had developed into a favorite."
+notes:
+  - "Caption describes this as the first beer brewed when the brewer moved to Massachusetts about a year before the Instagram post."
+  - "Grain bill, hops and original gravity were not stated."

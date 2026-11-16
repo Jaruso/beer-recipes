@@ -1,0 +1,35 @@
+# Historical recipe transcribed from public @jaruso23 Instagram posts.
+# Unpublished quantities are not estimated.
+featured: false
+name: "Whoops, I Made a Brown"
+style: "Brown Ale (unintended Irish Red)"
+summary: "An Irish Red experiment turned brown after a heavy roasted-barley addition, but tasted surprisingly good."
+source_url: "https://www.instagram.com/jaruso23/p/CTapBGMLtpN/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  size: "5 US gal (brewer-reported)"
+fermentables:
+  - amount: "Amount not recorded; majority"
+    name: "Munich malt"
+  - amount: "Amount not recorded"
+    name: "Wheat malt"
+  - amount: "Amount not recorded"
+    name: "Pale malt"
+  - amount: "3 oz"
+    name: "Roasted barley"
+hops:
+  - amount: "Amount not recorded"
+    name: "Crystal"
+    timing: "Bittering"
+  - amount: "Amount not recorded"
+    name: "Monroe"
+    timing: "Flavor"
+  - amount: "Amount not recorded"
+    name: "Barbe Rouge"
+    timing: "Flavor"
+notes:
+  - "The brewer was attempting an Irish Red but found 3 oz roasted barley too much for 5 gallons, resulting in a brown ale."
+  - "Tasting: red-berry notes reminiscent of raspberry or currant, paired with roast and malt flavors. The brewer was pleasantly surprised."
+  - "Proposed future red-ale variation: reduce roasted barley to 2 oz; not part of this batch."
+  - "Do not assume this is identical to the separately archived Stoned Apes Red Ale."

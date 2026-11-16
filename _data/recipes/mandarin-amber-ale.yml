@@ -1,0 +1,37 @@
+# Historical recipe transcribed from a public @jaruso23 Instagram post.
+# Missing amounts / timings are recorded as unknown, not estimated.
+featured: false
+name: "Mandarin Amber Ale"
+style: "American Amber Ale"
+summary: "An orange-tinged amber ale built for exceptional clarity through a three-step mash."
+source_url: "https://www.instagram.com/jaruso23/p/CFN9cUNlsFu/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  method: "All grain"
+fermentables:
+  - amount: "40% of grain bill"
+    name: "Vienna malt"
+  - amount: "40% of grain bill"
+    name: "Pilsner malt"
+  - amount: "20% of grain bill"
+    name: "Crystal 20L"
+hops:
+  - amount: "Amount not recorded"
+    name: "Mandarin Bavaria"
+    timing: "Boil addition(s), timing not recorded"
+other_ingredients:
+  - amount: "1 oz"
+    name: "Sweet orange peel"
+    timing: "End of boil"
+process:
+  - name: "Dough in"
+    instructions: "104°F for 20 minutes."
+  - name: "Protein rest"
+    instructions: "125°F for 30 minutes."
+  - name: "Saccharification"
+    instructions: "149°F for 60 minutes."
+notes:
+  - "Brewer reported an exceptionally clear finished beer, achieved without filtration or fining additives."
+  - "Flavor compared by brewer to Switchback Ale with a touch of orange."
+  - "Ingredient percentages are documented, but total grist weight and hop quantity were not reported."

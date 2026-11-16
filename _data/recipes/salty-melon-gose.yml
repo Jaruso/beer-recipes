@@ -1,0 +1,56 @@
+# Historical recipe transcribed from a public @jaruso23 Instagram post.
+# Missing amounts / timings are recorded as unknown, not estimated.
+featured: false
+name: "Salty Melon Göse"
+style: "Gose"
+summary: "Sour, salty and sweet melon gose with coriander, pink salt, honeydew and kveik."
+source_url: "https://www.instagram.com/jaruso23/p/CHJb5vBl_MU/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+batch:
+  method: "All grain, kettle sour"
+stats:
+  sour_ph: "3.4 at end of kettle sour (brewer-reported)"
+fermentables:
+  - amount: "50% of grain bill"
+    name: "Wheat malt"
+  - amount: "50% of grain bill"
+    name: "Pilsner malt"
+hops:
+  - amount: "Amount not recorded"
+    name: "Motueka"
+    timing: "Post-souring boil; exact timing not given"
+  - amount: "Amount not recorded"
+    name: "El Dorado"
+    timing: "Post-souring boil; exact timing not given"
+  - amount: "1 oz"
+    name: "Huell Melon"
+    timing: "High-krausen addition"
+yeast:
+  - amount: "Amount not recorded"
+    name: "House-cultured kveik yeast"
+other_ingredients:
+  - amount: "Amount not recorded"
+    name: "Lactobacillus culture"
+    timing: "Kettle sour, 2 days"
+  - amount: "Amount not recorded"
+    name: "Fresh crushed coriander"
+    timing: "Post-souring boil"
+  - amount: "Amount not recorded"
+    name: "Pink Himalayan salt"
+    timing: "Post-souring boil"
+  - amount: "1 whole melon"
+    name: "Honeydew melon"
+    timing: "High krausen"
+process:
+  - name: "Mash"
+    instructions: "Long mash using brewing water treated with a Kangen system; exact rest temperatures not recorded."
+  - name: "Kettle sour"
+    instructions: "Add Lactobacillus after mash, sour for two days until pH 3.4."
+  - name: "Boil"
+    instructions: "Boil after souring; add coriander, pink Himalayan salt, Motueka and El Dorado hops."
+  - name: "Ferment"
+    instructions: "Use house-cultured kveik yeast. At high krausen add one whole honeydew and 1 oz Huell Melon hops."
+notes:
+  - "Brewer described a salty, sour, sweet finish, strong melon notes and possible guava and pineapple complexity. Flavors integrated after a few weeks."
+  - "Separate historical recipe from 'Salty Melons Pseudo Lager'; do not merge these different formulations."

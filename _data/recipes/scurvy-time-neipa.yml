@@ -1,0 +1,40 @@
+# Historical recipe transcribed from a public @jaruso23 Instagram post.
+# Missing amounts / timings are recorded as unknown, not estimated.
+featured: false
+name: "Scurvy Time NE IPA"
+style: "Specialty IPA: New England IPA"
+summary: "Pillowy, low-bitterness NEIPA with strong peach, citrus and pineapple notes, without added fruit."
+source_url: "https://www.instagram.com/jaruso23/p/CPGzbemrtl5/"
+source_label: "Instagram brewing post (historical recipe)"
+tags: ["Instagram archive", "Historical brew"]
+stats:
+  abv: "~6.5% (brewer-reported)"
+fermentables:
+  - amount: "4 lb"
+    name: "2-row malt"
+  - amount: "3 lb"
+    name: "White wheat"
+  - amount: "2 lb"
+    name: "Light Munich"
+  - amount: "2 lb"
+    name: "Oats"
+hops:
+  - amount: "Amount not recorded"
+    name: "Mosaic"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Huell Melon"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Azacca"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Jarrylo"
+    timing: "Timing not recorded"
+  - amount: "Amount not recorded"
+    name: "Wai-iti"
+    timing: "Timing not recorded"
+notes:
+  - "The brewer's first beer on tap from the new home brewery. Described as very low bitterness, peach/citrus/pineapple flavors and soft pillowy mouthfeel."
+  - "Despite fruit-like flavor notes, no actual fruit was used."
+  - "Hop amounts, yeast and batch size were not stated."
