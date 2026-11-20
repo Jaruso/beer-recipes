@@ -80,3 +80,53 @@ body{background:var(--linen);color:var(--ink)}
 .instagram-notes .source-difference{border-top:1px solid #bcc8bb;padding-top:12px;color:#634d32}
 .instagram-source-link{font-size:12px;font-weight:900;color:#80511e;text-decoration:underline;text-underline-offset:3px}
 .instagram-source-link:hover{color:#473016}
+
+
+/* Mobile width and overflow repairs, November 2026.
+   A long, unbroken tasting-log URL in a recipe sidebar must never widen
+   the CSS Grid's implicit min-content track and shrink the whole site. */
+.detail-header > *, .detail-columns > *, .ingredient-row > * {min-width:0}
+.notes-box p, .source-box p, .instagram-notes p,
+.recipe-section p, .ingredient-row span, .ingredient-row strong {overflow-wrap:anywhere}
+@media screen and (max-width:700px) {
+  html, body {width:100%;max-width:100%;overflow-x:clip}
+  .page-shell {width:100%;max-width:100%;min-width:0}
+  .site-header {width:100%;max-width:100%;padding:0 16px;gap:10px}
+  .brand {min-width:0;flex:1;font-size:15px;gap:9px}
+  .brand small {letter-spacing:.7px;font-size:7px}
+  .site-header nav {flex:0 0 auto;gap:0}
+  .github-link {display:flex;align-items:center;min-height:42px;padding:9px 10px!important;font-size:10px!important;white-space:nowrap}
+  .recipe-detail {width:100%;max-width:100%;min-width:0;padding:28px 18px 58px}
+  .detail-actions {gap:12px;margin-bottom:31px}
+  .back-link {font-size:13px}
+  .print-button {min-height:44px;padding:10px 13px}
+  .detail-header, .detail-columns {display:grid;grid-template-columns:minmax(0,1fr);width:100%;min-width:0;max-width:100%;gap:0}
+  .detail-header {margin-bottom:25px}
+  .detail-header h1 {font-size:clamp(38px,11vw,58px);line-height:1;letter-spacing:0;margin:15px 0}
+  .detail-summary {font-size:15px;line-height:1.6;max-width:none}
+  .detail-hero-image {height:215px;margin-top:12px}
+  .detail-meta {width:100%;min-width:0;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px;padding:19px 0}
+  .detail-meta strong {font-size:13px;line-height:1.45;overflow-wrap:anywhere}
+  .stat-panel {width:100%;min-width:0;max-width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:21px 15px;padding:20px 18px;margin:20px 0 38px}
+  .stat-panel strong {font-size:clamp(18px,5vw,23px);line-height:1.25;overflow-wrap:anywhere}
+  .detail-main, .detail-sidebar, .recipe-section, .ingredient-list, .notes-box, .source-box, .instagram-notes, .process-steps {min-width:0;max-width:100%;width:100%}
+  .recipe-section {margin-bottom:40px}
+  .section-heading {gap:12px;align-items:baseline}
+  .section-heading h2 {font-size:clamp(24px,6.3vw,30px);line-height:1.15;overflow-wrap:anywhere}
+  .ingredient-row {grid-template-columns:74px minmax(0,1fr);gap:10px;padding:14px 0;font-size:14px}
+  .ingredient-row strong {font-size:12px}
+  .ingredient-row small {font-size:12px}
+  .ingredient-row span {min-width:0}
+  .notes-box, .instagram-notes {padding:21px 18px}
+  .notes-box p, .source-box p, .instagram-notes p, .process-steps li p {overflow-wrap:anywhere}
+  .photo-gallery {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .site-footer {gap:15px;padding:26px 18px}
+  .site-footer span:first-child {font-size:14px}
+}
+@media screen and (max-width:360px) {
+  .brand {font-size:13px}
+  .brand-mark {height:32px;width:32px}
+  .github-link {font-size:9px!important;padding:7px!important}
+  .recipe-detail {padding-left:15px;padding-right:15px}
+  .stat-panel {padding:17px 15px}
+}
