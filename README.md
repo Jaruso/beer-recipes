@@ -11,7 +11,7 @@ The recipe archive for **Brew Free or Die**, home of **The Caruso Brew Book**. A
 1. Open **Settings → Pages** in this repository.
 2. Under **Build and deployment**, select **Deploy from a branch**.
 3. Choose branch **`main`** and folder **`/(root)`**, then **Save**.
-4. Visit **https://jaruso.github.io/beer-recipies/** once the first Pages build completes.
+4. Visit **https://jaruso.github.io/beer-recipes/** once the first Pages build completes.
 
 > Do **not** add a `.nojekyll` file: GitHub Pages needs Jekyll to transform the recipe YAML files into HTML.
 
@@ -87,7 +87,7 @@ The example values above are illustrative, not a saved recipe. The collection in
 - `other_ingredients`: same entries as hops (`amount`, `name`, optional `timing`)
 - `yeast[].notes`, `hops[].timing`, `stats`, `batch`, `process`, and `notes`
 
-Paths to images are relative to the repository root (for example `assets/images/ipa.jpg`). GitHub Pages automatically handles the `/beer-recipies/` URL prefix.
+Paths to images are relative to the repository root (for example `assets/images/ipa.jpg`). GitHub Pages automatically handles the `/beer-recipes/` URL prefix.
 
 ## Rich recipe details (optional)
 
@@ -121,7 +121,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Then open `http://localhost:4000/beer-recipies/`.
+Then open `http://localhost:4000/beer-recipes/`.
 
 ## Project structure
 
