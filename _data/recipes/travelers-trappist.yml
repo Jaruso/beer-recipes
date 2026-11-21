@@ -8,6 +8,7 @@ source_url: "https://www.brewersfriend.com/homebrew/recipe/view/1186526/traveler
 source_id: 1186526
 tags: ["All grain", "Brewer's Friend import"]
 date: "2022-02-26"
+image: "assets/images/travelers-trappist.avif"
 batch:
   method: "All grain"
   size: "5 US gal"
